@@ -1,0 +1,21 @@
+        .container2{position: relative;width:900px;height: 410px;box-shadow: 2px 2px 3px 2px #aaa;}
+        .leftBox{position: absolute;width: 300px;height: 410px;background-color:yellow;}
+        .profileImg{position: absolute;width: 100px;height: 100px;border: 15px solid #00918E;border-radius: 70px;margin-top: 20px;margin-left: 20px;}
+        img{width: 100px;height: 100px;border-radius: 50px;}
+        h1.titleName{position: absolute;font-family: "Merriweather Sans";}
+        ul.listMain{list-style: none;position: absolute;line-height: 30px;margin-top: 260px;font-family: "Bebas Neue";}
+        ul.listSub{list-style: none;font-size: 10px;position: absolute;line-height: 30px;margin-top: 260px;margin-left: 60px;font-family: "Playfair Display SC";}
+        .rightBox{position: absolute;width: 600px;height: 410px;margin-left: 300px;background-color:#45474B;}
+        h3.heading1{position: absolute;margin-top: -0px;font-family: "Kanit";margin-left: 320px;color:#00918E;}
+        p.desc1{position: absolute;margin-top: 30px;font-family: "Kanit";margin-left: 320px;color:white;}
+        h6.subDesc1{position: absolute;margin-top: 60px;font-family: "Kanit";margin-left: 320px;color:grey;}
+        p.desc2{position: absolute;margin-top: 30px;font-family: "Kanit";margin-left: 480px;color:white;}
+        h6.subDesc2{position: absolute;margin-top: 60px;width:400px;text-align: justify;font-family: "Kanit";margin-left: 480px;color:grey;}
+        p.desc3{position: absolute;margin-top: 150px;font-family: "Kanit";margin-left: 320px;color:white;}
+        h6.subDesc3{position: absolute;margin-top: 180px;font-family: "Kanit";margin-left: 320px;color:grey;}
+        p.desc4{position: absolute;margin-top: 150px;font-family: "Kanit";margin-left: 480px;color:white;}
+        h6.subDesc4{position: absolute;margin-top: 180px;width:400px;text-align: justify;font-family: "Kanit";margin-left: 480px;color:grey;}
+        p.desc5{position: absolute;margin-top: 270px;font-family: "Kanit";margin-left: 320px;color:white;}
+        h6.subDesc5{position: absolute;margin-top: 300px;font-family: "Kanit";margin-left: 320px;color:grey;}
+        p.desc6{position: absolute;margin-top: 270px;font-family: "Kanit";margin-left: 480px;color:white;}
+        h6.subDesc6{position: absolute;margin-top: 300px;width:400px;text-align: justify;font-family: "Kanit";margin-left: 480px;color:grey;}
