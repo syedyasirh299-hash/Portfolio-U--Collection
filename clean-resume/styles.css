@@ -1,0 +1,468 @@
+            .con{
+                position: relative;
+                width:800px;
+                height: 1500px;
+                background-color:#040720;
+            }
+            .box{
+                position: absolute;
+                width: 740px;
+                background-color: white;
+                height: 1440px;
+                margin-top: 40px;
+                margin-left:30px;
+            }
+            .box1{
+                position: absolute;
+                width: 120px;
+                height: 140px;
+                border: 1px solid black;
+                margin-top: 130px;
+                margin-left:90px;
+            }
+            .im{
+                position: absolute;
+                width: 110px;
+                height: 100px;
+               background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                color:white;
+                margin-top: 140px;
+                margin-left:95px;
+            }
+            p.js{
+                position: absolute;
+                font-size: 30px;
+                font-family: "Roboto";
+                color: #2744a5;
+                margin-top: 130px;
+                margin-left:230px;
+            }
+            h6.id{
+                position: absolute;
+               
+                font-family: "Roboto";
+                color: #2744a5;
+                margin-top: 163px;
+                margin-left:230px;
+            }
+            ul.ic{
+                list-style: none;
+                font-size: smaller;
+                line-height :20px ;
+                position: absolute;
+                margin-top: 190px;
+                margin-left:200px;
+
+            }
+            ul.add{
+                list-style: none;
+                font-size: smaller;
+                line-height:20px ;
+                position: absolute;
+                margin-top: 190px;
+                margin-left:230px;
+
+            }
+            ul.le{display: flex;
+                list-style: none;
+            
+                font-size: large;
+                line-height:20px ;
+                position: absolute;
+                margin-top: 125px;
+                margin-left:510px;
+
+            }
+            li.ic{
+                margin:5px;
+            }
+     
+            li.ia{
+                margin:5px;
+                background-color:  #124aab ;
+                font-size: 14px;
+                text-align: center;
+                align-content: center;
+                width: 15px;
+                height: 17px;
+            }
+            h4.bed{
+                position: absolute;
+              
+                font-family: "Cabin";
+                color: #2744a5;
+                margin-top: 340px;
+                margin-left:120px;
+              
+            }
+            h6.str{
+                position: absolute;
+                width: 410px;
+                font-family: "Cabin";
+                text-align: justify;
+                color: #000000;
+                margin-top: 340px;
+                margin-left:220px;
+              
+            }
+            h4.bed1{
+                position: absolute;
+         
+                font-family: "Cabin";
+                color: #2744a5;
+                margin-top: 390px;
+                margin-left:100px;
+                line-height: 90px;
+            }
+            h6.pa{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 460px;
+                margin-left:90px;
+              
+            }
+            h6.pa1{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #000000;
+                margin-top: 460px;
+                margin-left:220px;
+              
+            }
+            h6.pa2{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 475px;
+                margin-left:220px;
+              
+            }
+            h6.pa3{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 530px;
+                margin-left:90px;
+              
+            }
+            h6.pa4{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #000000;
+                margin-top: 530px;
+                margin-left:220px;
+              
+            }
+            h6.pa5{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 545px;
+                margin-left:220px;
+              
+            }
+
+            h6.pa6{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 650px;
+                margin-left:90px;
+              
+            }
+            h6.pa7{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #000000;
+                margin-top: 650px;
+                margin-left:220px;
+              
+            }
+            h6.pa8{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 665px;
+                margin-left:220px;
+              
+            }
+            ul.yas{
+                position: absolute;
+                width: 410px;
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+              
+                color: #000000;
+                margin-top: 690px;
+                margin-left:200px;
+              
+            }
+            h6.pa8{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 800px;
+                margin-left:90px;
+              
+            }
+            h6.pa10{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #000000;
+                margin-top: 760px;
+                margin-left:220px;
+              
+            }
+            h6.pa11{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 775px;
+                margin-left:220px;
+              
+            }
+            ul.yas1{
+                position: absolute;
+                width: 410px;
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+               
+                color: #000000;
+                margin-top: 800px;
+                margin-left:190px;
+              
+            }
+            h4.bed2{
+                position: absolute;
+         
+                font-family: "Cabin";
+                color: #2744a5;
+                margin-top: 900px;
+                margin-left:120px;
+            
+            }
+            h6.pa12{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top: 935px;
+                margin-left:60px;
+              
+            }
+            h6.pa13{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+                color: #aaa;
+                margin-top:1000px;
+                margin-left:125px;
+              
+            }
+            ul.skil{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+              line-height: 15px;
+                margin-top: 935px;
+                margin-left:190px;
+              
+            }
+            ul.ski2{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+              line-height: 15px;
+                margin-top: 935px;
+                margin-left:360px;
+              
+            }
+            ul.ski3{
+                position: absolute;
+             
+                font-family: "Cabin";
+                font-size: 10px;
+                text-align: justify;
+              line-height: 15px;
+                margin-top: 935px;
+                margin-left:510px;
+              
+            }
+            h4.bed3{
+                position: absolute;
+         
+                font-family: "Cabin";
+                color: #2744a5;
+                margin-top: 1070px;
+                margin-left:100px;
+            
+            }
+            .bo{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1070px;
+                margin-left:190px;
+            
+            }
+            .bo1{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1070px;
+                margin-left:320px;
+            
+            }
+            .bo2{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1070px;
+                margin-left:450px;
+            
+            }
+            .bo3{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1070px;
+                margin-left:580px;
+            
+            }
+            .bo4{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1200px;
+                margin-left:190px;
+            
+            }
+            .bo5{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1200px;
+                margin-left:320px;
+            
+            }
+            .bo6{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1200px;
+                margin-left:450px;
+            
+            }
+            .bo7{
+                position: absolute;
+                color: white;
+                background-color: #aaa;
+                text-align: center;
+                align-content: center;
+                width: 90px;
+                height: 90px;
+                border: 5px solid white;
+                outline: 1px solid rgb(0, 0, 0);
+                font-size: 14px;
+                margin-top: 1200px;
+                margin-left:580px;
+            
+            }
