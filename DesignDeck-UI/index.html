@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@400;700;800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content-wrapper"></div>
+         <img class="header-img" src="header-img.jpg" alit="">
+            <p class="header-main">designs</p>
+            <p class="tag">color designs in beauset</p>
+            <h6 class="header-main">This code creates two horizontal lines, one red and one blue, with a small space between them. You can adjust the colors, heights, and spacing as needed.
+
+                elements with CSS?</h6>
+                <ul class="navbar">
+                    <li  class="nav-item">Home</li>
+                    <li  class="nav-item">About</li>
+                    <li  class="nav-item">Content</li>
+                    <li  class="nav-item">video</li>
+                    <li class="nav-item">Music</li>
+                    <li class="nav-item">More</li>
+                    <li class="header-main">Best color</li>
+                </ul>
+                <p class="subtitle-main">The best color <p class="accent-text">muching</p></p>
+   
+   <div class="icon-beer"><i class="fa-solid fa-beer-mug-empty"></i></div>
+     <img class="tag" src="tag-image.png">
+     <div class="play-button"><i class="fa-regular fa-circle-play"></i></div>
+     <h3 class="section-title">COLOR CHOCOLATE RICH</h3>
+     <p class="description"><b>The color chocolate is a rich warm </b>shade of brown</p>
+     <h6 class="description">The rich, warm hue of chocolate brings a sense of comfort and elegance to any design.
+        Chocolate tones evoke feelings of indulgence and sophistication, perfect for creating a cozy atmosphere.
+        The chocolate color exudes a sense of reliability and warmth, making it a perfect choice for creating inviting </h6>
+     <h5 class="description"> Chocolate</h5>
+     <ul class="rating-stars">
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li class="rating-number"><h2>1</h2></li>
+     </ul>
+     <p class="views-label">views<p class="views-count">1000k</p>
+     <p class="video-label">video<p class="video-format">MP4</p>
+     <p class="rating-percent">100%<p class="rating-text">rating</p>
+     <div class="section-bg"></div>
+     <div class="tilted-label"></div>
+      <h3 class="best-color-btn">Best Color</h3>
+      <ul class="tag-icons">
+        <li class="tag-icon-1"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-2"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-3"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-4"><i class="fa-solid fa-tag"></i></li>
+      </ul>
+      <ul class="color-list">
+        <li class="color-red"><h4>Red</h4> <h6 class="color-desc"> Passion, energy </h6></li>
+        <li  class="color-blue"><h4>Blue </h4><h6 class="color-desc">Calm, trust </h6></li>
+        <li  class="color-yellow"><h4>Yellow</h4> <h6 class="color-desc">Happiness, optimis</h6></li>
+        <li  class="color-green"><h4>Green</h4> <h6 class="color-desc"> Growth, harmony </h6></li>
+      </ul>
+      <ul class="color-list-2">
+        <li class="color-red"><h4>Purple</h4> <h6 class="color-desc">  Royalty, creativity </h6></li>
+        <li  class="color-orange"><h4>Orange </h4><h6 class="color-desc">Enthusiasm </h6></li>
+        <li  class="color-yellow"><h4>Black </h4> <h6 class="color-desc">Power, elegance</h6></li>
+        <li  class="color-white"><h4>White</h4> <h6 class="color-desc"> Purity, simplicity </h6></li>
+      </ul>
+      <ul class="tag-icons-2">
+        <li class="tag-icon-1b"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-2b"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-3b"><i class="fa-solid fa-tag"></i></li>
+        <li class="tag-icon-4b"><i class="fa-solid fa-tag"></i></li>
+      </ul>
+
+
+      <ul class="navbar-secondary">
+        <li  class="nav-item">Home</li>
+        <li  class="nav-item">About</li>
+        <li  class="nav-item">Content</li>
+        <li  class="nav-item">video</li>
+        <li class="nav-item">Music</li>
+        <li class="nav-item">More</li>
+        <li class="nav-item-active">Best color</li>
+    </ul>
+    <div class="nav-box"></div>
+    <p class="nav-subtitle">The best color <p class="nav-accent">muching</p></p>
+
+<div class="icon-beer-small"><i class="fa-solid fa-beer-mug-empty"></i></div>
+<div class="half-circle-1"></div>
+<ul  class="languages-list">
+    <li class="language-item"><h4>Python</h4> <h6 class="language-desc"> Versatile, simple </h6></li>
+    <li  class="language-item"><h4>JavaScript </h4><h6 class="language-desc"> Web, interactive.</h6></li>
+    <li class="language-item"><h4>Java </h4> <h6 class="language-desc"> Enterprise, robust</h6></li>
+    <li class="language-item"><h4>TypeScript</h4> <h6 class="language-desc-wide"> Typed, JavaScript.</h6></li>
+</ul>
+<div class="half-circle-2"></div>
+<div class="half-circle-3"></div>
+<div class="half-circle-4"></div>
+<h2 class="section-heading">Many programing laugauges</h2>
+<h6 class="section-subtitle">Sure! Here are three lines about programming languages</h6>
+<h6 class="section-text">A programming language<br> is a formal system of notation used to write instructions that a computer can execute. These languages enable developers 
+    to create software, applications, and systems by providing a structured way to communicate with the computer. Popular programming languages like Python, JavaScript, 
+    and Java each have unique features and use cases, making them suitable for different types of projects. Python is known for its simplicity and versatility, JavaScript
+     is essential 
+     <br><b class="highlight-bold">widely used in enterprise environments. languages </b></h6>
+
+
+<h6 class="section-subtitle-2">Sure! Here are three lines about programming languages</h6>
+<h6 class="section-text-2">A programming language<br> is a formal system of notation used to write instructions that a computer can execute. These languages enable developers 
+    to create software, applications, and systems by providing a structured way to communicate with the computer. Popular programming languages like Python, JavaScript, 
+    and Java each have unique features and use cases, making them suitable for different types of projects. Python is known for its simplicity and versatility, JavaScript
+     is essential 
+     <br><b class="highlight-bold">widely used in enterprise environments. languages </b></h6>
+    
+     <h6 class="section-subtitle-3">Sure! Here are  programming languages</h6>
+     <h6 class="section-text-3">A programming language is a formal system of<br> notation used to write instructions that a computer can execute. These languages enable developers 
+         to create software, applications, and systems by providing a structured way to communicate with the computer. Popular programming languages like Python, JavaScript, 
+         and Java each have unique features and use cases, making them suitable for different types of projects. Python is known for its simplicity and versatility, JavaScript
+         and Java each have   is essential 
+          <br><b class="highlight-bold">widely used in enterprise environments. languages </b></h6>
+     
+          <h2 class="section-heading-right">JavaScript</h2>
+          <h6 class="section-subtitle-right"> programming </h6>
+          <h6 class="section-text-right">A programming language is a formal system of notation used to write instructions that a 
+            computer can execute. These languages enable developers to create 
+            software, applications, and systems by providing a structured way to  Popular programming languages like Python, 
+            JavaScript, and Java each have unique features and use cases, making them suitable for different types of projects       
+            JavaScript, and Java each have unique features and use cases, making them 
+            <br><b class="highlight-bold">widely  languages </b></h6>
+
+            <h6 class="section-subtitle-right-2"> programming </h6>
+            <h6 class="section-text-right-2">A programming language is a formal system of notation used to write instructions that a 
+              computer can execute. These languages enable developers to create 
+              software, applications, and systems by providing a structured way to  Popular programming languages like Python, 
+              JavaScript, and Java each have unique features and use cases, making them suitable for different types of projects       
+              JavaScript, and Java each have unique features and use cases, making them 
+              <br><b class="highlight-bold">widely  languages </b></h6>
+              <div class="highlight-area"></div>
+              <div class="languages-box"></div>
+              <h3 class="languages-btn">languages</h3>
+      <img class="img-python" src="python.png">
+      <h6 class="python-title">Python<br></h6>
+      <h6 class="python-sub">Versatile</h6>
+      <h6 class="python-desc"><b class="python-bold">Python is a high-level,</b>
+        JavaScript is a versatile, lightweight, and interpreted programming language commonly used to create interactive effects within web browsers.
+        effects within web browsers.Dynamic Typing: Variables in JavaScriptare  to any code is
+
+             execution using callbacks, promises, and async/await syntax</h6>
+             <h6 class="python-note">Mobile App Development: Frameworks like React Native allow JavaScript to be used codeing .</h6>
+      <img class="img-javascript" src="java-script (1).png">
+      <h6 class="js-title">JavaScript<br></h6>
+      <h6 class="js-sub"> Web, interactive</h6>
+      <h6 class="js-desc"><b class="js-bold">JavaScript is programming language </b>
+        JavaScript is a versatile, lightweight, and interpreted programming language commonly used to create interactive effects within web browsers.
+        effects within web browsers.Dynamic Typing: Variables in JavaScriptare  to any code is
+        
+             execution using callbacks, promises, and async/await syntax</h6>
+             <h6 class="js-note">Mobile App Development: Frameworks like React Native allow JavaScript to be used codeing .</h6>
+
+
+        <img class="img-java" src="java.png">
+        <h6 class="java-title">Java</h6>     
+        <h6 class="java-sub">Enterprise, robust</h6>
+      <h6 class="java-desc"><b class="java-bold">Java is a high-level, class-based </b>
+        JavaScript is a versatile, lightweight, and interpreted programming language commonly used to create interactive effects within web browsers.
+        effects within web browsers.Dynamic Typing: Variables in JavaScriptare  to any code is
+            Asynchronous Programming: JavaScript supports asynchronous operations
+             execution using callbacks, promises, and async/await syntax</h6>
+             <h6 class="java-note">Mobile Android Development: Frameworks like React Native allow JavaScript to be used .</h6>
+ <img class="img-csharp" src="c-logo-icon-28402.png">
+ <h6 class="csharp-title">C# </h6>
+<h6 class="csharp-sub">abstract,async</h6>
+<h6 class="csharp-desc"><b class="csharp-bold">C# (pronounced “C-sharp”) is a modern</b>
+    JavaScript is a versatile, lightweight, and interpreted programming language commonly used to create interactive effects within web browsers.
+    effects within web browsers.Dynamic Typing: Variables in JavaScriptare  to any code is
+        Asynchronous Programming: JavaScript supports asynchronous operations
+         execution using callbacks, promises, and async/await syntax</h6>
+         <h6 class="csharp-note">Mobile Android Development: Frameworks like React Native allow JavaScript to be used .</h6>
+        <div class="note-box"></div>
+         <h3 class="note-title">Note of languages</h3>
+
+           <ul class="notes-row">
+
+            <li class="note"><h5 class="history-title">Python history</h5>
+                <h6 class="history-text">In the late 1980s, history was about to be written. 
+
+                     It was started as a hobby project because he was  interesting .</h6></li>
+       
+                     <li class="note"><h5 class="history-title-java">Java  high-level history</h5>
+                        <h6 class="history-text-java">In the late 1980s, history was about to be written. 
+        
+                             It was started as a hobby project because he was looking  </h6></li>
+               
+                             <li class="note"><h5 class="history-title-js">JavaScript history</h5>
+                                <h6 class="history-text-js">In the late 1980s, history was about to be written. 
+                
+                                     It was started as a hobby project because he was looking  </h6></li>    
+           </ul>
+
+<ul class="icons-row">
+    <li><img class="icon-img1" src="pythonreal.png"></li>
+    <li><img class="icon-img2" src="b (2).png"></li>
+    <li><img class="icon-img3" src="programming.png"></li>
+</ul>
+
+<ul class="notes-row-2">
+
+    <li class="noteb"><h5 class="history-title-b">Python history</h5>
+        <h6 class="history-text-b">In the late 1980s, history was about to be written. 
+
+             It was started as a hobby project because he was  interesting .</h6></li>
+
+             <li class="noteb"><h5 class="history-title-java-b">Java  high-level history</h5>
+                <h6 class="history-text-java-b">In the late 1980s, history was about to be written. 
+
+                     It was started as a hobby project because he was looking  </h6></li>
+       
+                     <li class="noteb"><h5 class="history-title-js-b">JavaScript history</h5>
+                        <h6 class="history-text-js-b">In the late 1980s, history was about to be written. 
+        
+                             It was started as a hobby project because he was looking  </h6></li>    
+   </ul>
+   <ul class="icons-row-2">
+    <li><img class="icon-img1b" src="python (3).png"></li>
+    <li><img class="icon-img2b" src="javascript (2).png"></li>
+    <li><img class="icon-img3b" src="java (1).png"></li>
+</ul>
+</body>
+</html>
