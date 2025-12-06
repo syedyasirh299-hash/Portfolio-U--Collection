@@ -1,0 +1,612 @@
+  *{
+            margin: 0;
+            padding: 0;
+        }
+            .con{
+                position: relative;
+                width: 800px;
+                height: 1800px;
+                background-color: black;
+            }
+            .box{
+                position: absolute;
+                width: 760px;
+                height: 1760px;
+                margin-top: 30px;
+                margin-left: 10px;
+                box-shadow: 1px 1px 2px 2px white;
+                background-color: #2d3f50;
+            }
+            .box1{
+                position: absolute;
+                width: 760px;
+                height: 330px;
+                margin-top: 30px;
+                background-color: black;
+                margin-left: 10px;
+                
+            }
+            img.top{
+                position: absolute;
+                width: 760px;
+                height: 300px;
+                margin-top: 30px;
+                margin-left: 0px;
+                
+            }
+            ul.itop{
+                display: flex;
+                position: absolute;
+                list-style: none;
+                margin-left: 310px;
+                margin-top: 33px;
+                color: rgb(0, 0, 0);
+            }
+            li.top{
+                font-size: 13px;
+                margin: 5px;
+                margin-left: 15px;
+            }
+            .topw{
+                position: absolute;
+                width: 760px;
+                height: 850px;
+                margin-top: 550px;
+                margin-left: 10px;
+                
+                background-color: white;
+            }
+            p.top{
+                
+                position: absolute;
+                font-family:"Encode Sans Condensed" ;            
+                margin-left: 120px;
+                font-size: 50px;
+                margin-top: 210px;
+                color: white;
+            }
+            p.tops{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 170px;
+                font-size: 13px;
+                margin-top: 285px;
+                color: white;
+            }
+            p.med{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 60px;
+                font-size: 13px;
+                margin-top: 410px;
+                color: white;
+            }
+            p.medp{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 230px;
+                font-size: 12px;
+                line-height: 17px;
+                width: 320px;
+                
+                margin-top: 410px;
+                color: white;
+            }
+            ul.med{
+                display: flex;
+                list-style: none;
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 580px;
+                font-size: 13px;
+            
+                
+                
+                margin-top: 410px;
+                color: white;
+            }
+            li.med1{
+                position: absolute;
+                margin-top: 0px;
+                margin-left: 15px;
+                white-space: nowrap;
+            }
+            p.med1{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 60px;
+                font-size: 13px;
+                margin-top: 600px;
+                color: grey;
+            }
+
+            h5.sp{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 600px;
+            }
+            h6.sp1{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 620px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.sp2{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 635px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            ul.med1{
+                display: flex;
+                list-style: none;
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 580px;
+                line-height: 30px;
+                font-size: 15px;
+                margin-top: 600px;
+                color: grey;
+            }
+    
+            h6.bei{
+                position: absolute;
+                margin-left: 230px;
+                width:60px;
+                height: 20px;    
+                margin-top: 625px;
+                font-size: 9px;
+                text-align: center;
+                align-content: center;
+                border-radius: 2px;
+                margin-left: 580px;
+                font-family: "Signika Negative";
+                color:white;
+                background-color:#2d3f50;
+            }
+            h5.sp3{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 680px;
+            }
+            h6.sp4{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 700px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.sp5{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 715px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            hr{
+                position: absolute;
+                width: 760px;
+                margin-left: 10px;
+                height: 1px;
+                margin-top: 780px;
+            }
+            p.fline{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 60px;
+                font-size: 13px;
+                margin-top: 830px;
+                color: grey;
+            }
+            h5.sp6{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 830px;
+            }
+            h6.sp7{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 850px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.lline{
+                position: absolute;
+                margin-left: 580px;
+                              
+                margin-top: 830px;
+                font-family: "Signika Negative"; 
+                color: grey;
+            }
+     p.medmed{
+        position: absolute;
+        color:grey;
+        margin-top: 880px;
+        font-family:"Barlow Condensed" ;            
+                margin-left: 230px;
+                font-size: 12px;
+                line-height: 17px;
+                width: 350px;
+                
+      
+          
+     }
+     h5.sp8{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 980px;
+            }
+     h6.sp9{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 1000px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.llinem{
+                position: absolute;
+                margin-left: 580px;
+                              
+                margin-top: 980px;
+                font-family: "Signika Negative"; 
+                color: grey;
+            }
+     p.medmedm{
+        position: absolute;
+        color:grey;
+        margin-top: 1030px;
+        font-family:"Barlow Condensed" ;            
+                margin-left: 230px;
+                font-size: 12px;
+                line-height: 17px;
+                width: 350px;
+     }
+     hr.med{
+                position: absolute;
+                width: 760px;
+                margin-left: 10px;
+                height: 1px;
+                margin-top: 1140px;
+            }
+            p.fline1{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 60px;
+                font-size: 13px;
+                margin-top: 1190px;
+                color: grey;
+            }
+            h5.sp10{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 1190px;
+            }
+            h6.sp12{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 1210px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.llinemd{
+                position: absolute;
+                margin-left: 580px;
+                              
+                margin-top: 1190px;
+                font-family: "Signika Negative"; 
+                color: grey;
+            }
+            h5.sp13{
+                position: absolute;
+                font-family: "Signika Negative";
+                
+                color:#2d3f50;
+                margin-left: 230px;
+                              
+                margin-top: 1250px;
+            }
+            h6.sp14{
+                position: absolute;
+                margin-left: 230px;
+                              
+                margin-top: 1270px;
+                font-family: "Signika Negative";
+                color: grey;
+            }
+            h6.llinemdd{
+                position: absolute;
+                margin-left: 580px;
+                              
+                
+                margin-top: 1250px;
+                font-family: "Signika Negative"; 
+                color: grey;
+            }
+            p.medmedb{
+        position: absolute;
+        color:grey;
+        margin-top: 1300px;
+        font-family:"Barlow Condensed" ;            
+                margin-left: 230px;
+                font-size: 12px;
+                line-height: 17px;
+                width: 350px;
+     }
+     p.fline2{
+                
+                position: absolute;
+                font-family:"Barlow Condensed" ;            
+                margin-left: 60px;
+                font-size: 13px;
+                margin-top: 1450px;
+                color: white;
+            }
+                     
+.cir {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+
+
+  /* Rotate the circle */
+  transform: rotate(130deg);
+  margin-top: 1450px;
+  margin-left:250px;
+}
+.cir1 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+
+  /* Rotate the circle */
+  transform: rotate(130deg);
+  margin-top: 1450px;
+  margin-left:250px;
+}
+h6.cr{
+                position: absolute;
+                margin-top: 1550px;
+                margin-left:275px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
+                      
+.cir2 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+
+
+  /* Rotate the circle */
+  transform: rotate(140deg);
+  margin-top: 1600px;
+  margin-left:250px;
+}
+
+.cir3 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+
+  /* Rotate the circle */
+  transform: rotate(140deg);
+  margin-top: 1600px;
+  margin-left:250px;
+}
+h6.cr1{
+                position: absolute;
+                margin-top: 1700px;
+                margin-left:275px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
+                             
+.cir4 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-right: 4px solid   #02937b;
+
+  /* Rotate the circle */
+  transform: rotate(170deg);
+  margin-top: 1450px;
+  margin-left:450px;
+}
+.cir5 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+
+  /* Rotate the circle */
+  transform: rotate(130deg);
+  margin-top: 1450px;
+  margin-left:450px;
+}
+h6.cr2{
+                position: absolute;
+                margin-top: 1550px;
+                margin-left:475px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
+            .cir6 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+
+
+  /* Rotate the circle */
+  transform: rotate(140deg);
+  margin-top: 1600px;
+  margin-left:450px;
+}
+.cir7 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+
+  /* Rotate the circle */
+  transform: rotate(110deg);
+  margin-top: 1600px;
+  margin-left:450px;
+}
+h6.cr3{
+                position: absolute;
+                margin-top: 1700px;
+                margin-left:475px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
+                
+            .cir0 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+
+
+  /* Rotate the circle */
+  transform: rotate(140deg);
+  margin-top: 1600px;
+  margin-left:650px;
+}
+.cir00{
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(130deg);
+  margin-top: 1600px;
+  margin-left:650px;
+}
+h6.cr5{
+                position: absolute;
+                margin-top: 1700px;
+                margin-left:675px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
+                                           
+.cir8 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid  white;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-right: 4px solid   #02937b;
+
+  /* Rotate the circle */
+  transform: rotate(110deg);
+  margin-top: 1450px;
+  margin-left:650px;
+}
+.cir9 {
+                position: absolute;
+  /* Create the circle */
+  width: 80px;
+  height: 80px;
+  border: 4px solid   #02937b;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(130deg);
+  margin-top: 1450px;
+  margin-left:650px;
+}
+h6.cr4{
+                position: absolute;
+                margin-top: 1550px;
+                margin-left:675px;
+                font-size: 13px;
+                font-family: "Signika Negative"; 
+                color: white;
+            }
