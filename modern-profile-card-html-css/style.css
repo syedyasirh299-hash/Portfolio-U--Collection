@@ -1,0 +1,261 @@
+.profile-container{
+    position: relative;
+    width:900px;
+    height: 450px;
+    background-color:#C5C3C6;
+    border:black solid 1px;
+}
+.left-sidebar{
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    background-color: #1985A1;
+}
+.photo-frame{
+    position: absolute;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+    height: 220px;
+    background-color: white;
+}
+.profile-photo{
+    position: absolute;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 2px;
+    height: 160px;
+}
+.profile-name{
+    position: absolute;
+    font-family: "Signika Negative";
+    margin-top: 190px;
+    margin-left: 80px;
+    color:  #474745;
+}
+.profile-title{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 210px;
+    font-size: 14px;
+    margin-left: 70px;
+    color:  #474745;
+}
+
+.contact-heading{
+    position: absolute;
+    color: white;
+    font-size: medium;
+    font-family: "Signika Negative";
+    margin-top: 270px;
+    margin-left: 20px;
+}
+hr{
+    position: absolute;
+    width: 220px;
+    border-radius: 7px;
+    margin-top: 300px;
+    margin-left: 10px;
+}
+.contact-icon-phone{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    border:1px solid white;
+    margin-top: 340px;
+    margin-left: 20px;
+}
+.contact-phone-text{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    margin-top: 345px;
+    margin-left: 65px;
+}
+.contact-icon-email{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    border:1px solid white;
+    margin-top: 390px;
+    margin-left: 20px;
+}
+.contact-email-text{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    margin-top: 395px;
+    margin-left: 65px;
+}
+
+.main-name-heading{
+    position: absolute;
+    font-family: "Signika Negative";
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 660px;
+    color:  #939389;
+}
+.main-title-sub{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 80px;
+    font-size: 14px;
+    margin-left: 770px;
+    color:  #939389;
+}
+
+.profile-icon{
+    position: absolute;
+    font-family: "Dosis";     
+    margin-top: 130px;
+    font-size: 15px;
+    margin-left: 280px;
+    color:  #474745;
+}
+.profile-label{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 127px;
+    font-size: 15px;
+    margin-left: 300px;
+    color:  #474745;
+}
+.profile-divider{
+    position: absolute;
+    width: 600px;
+    border-radius: 7px;
+    margin-top: 155px;
+    margin-left: 270px;
+}
+.profile-description{
+    position: absolute;
+    font-family: "Dosis";
+    width: 550px;
+    font-size: 13px;
+    margin-top: 170px;
+    text-align: justify;
+    margin-left: 310px;
+    color:  #71716d;
+}
+
+.hire-me-btn{
+    position: absolute;
+    color: #71716d;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    border:1px solid #71716d;
+    margin-top: 275px;
+    margin-left: 310px;
+}
+.download-btn{
+    position: absolute;
+    color: #71716d;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50px;
+    border:1px solid #71716d;
+    margin-top: 275px;
+    margin-left: 420px;
+}
+
+.work-icon{
+    position: absolute;
+    font-family: "Dosis";     
+    margin-top: 330px;
+    font-size: 15px;
+    margin-left: 280px;
+    color:  #474745;
+}
+.work-heading{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 327px;
+    font-size: 15px;
+    margin-left: 300px;
+    color:  #474745;
+}
+.work-divider{
+    position: absolute;
+    width: 600px;
+    border-radius: 7px;
+    margin-top: 355px;
+    margin-left: 270px;
+}
+.work-title{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 360px;
+    font-size: 13px;
+    margin-left: 280px;
+    color:  #474745;
+}
+.work-subtitle{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 380px;
+    font-size: 11px;
+    margin-left: 280px;
+    color:  #474745;
+}
+.work-date{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 360px;
+    font-size: 12px;
+    margin-left: 840px;
+    color:  #474745;
+}
+
+.work-bullet-1{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 410px;
+    font-size: 12px;
+    margin-left: 270px;
+    color:  #474745;
+}
+.work-bullet-2{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 430px;
+    font-size: 12px;
+    margin-left: 270px;
+    color:  #474745;
+}
+
+.work-detail-1{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 405px;
+    font-size: 11px;
+    margin-left: 300px;
+    color:  #474745;
+}
+.work-detail-2{
+    position: absolute;
+    font-family: "Dosis";
+    margin-top: 425px;
+    font-size: 11px;
+    margin-left: 300px;
+    color:  #474745;
+}
