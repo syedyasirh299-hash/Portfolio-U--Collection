@@ -1,0 +1,336 @@
+        .resume-container{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+        }
+        .resume-content{
+            position: absolute;
+            width: 800px;
+            height: 450px;
+            background-color: white;
+            margin-left:100px;
+            margin-top: 150px;
+        }
+        .profile-frame{
+            position: absolute;
+            width: 110px;
+            height: 110px;
+            margin-top: 175px;
+            margin-left: 135px;
+            background-color: #00b0ff;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);    
+         } 
+        img.profile-img{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin-top: 180px;
+            margin-left: 140px;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);    
+         }
+         img.brand-icon{
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;
+            margin-left: 470px;
+         }
+
+         p.brand-text{
+            position: absolute;
+            color: white;
+            font-family: "Nunito";
+            margin-top: 25px;
+            margin-left: 510px;
+         }
+
+         h1.main-title{
+            position: absolute;
+            font-family: "Roboto Mono";
+            font-size: 60px;
+            margin-top: 70px;
+            margin-left: 100px;
+            color: white;
+         }
+         h4.subtitle{
+            position: absolute;
+            font-family: "Roboto";
+            margin-top: 200px;
+            margin-left: 260px;
+         }
+         p.subtitle-date{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            color: black;
+            font-size: 10px;
+            margin-top: 208px;
+            margin-left: 385px;
+         }
+         h5.subtitle-highlight{
+            position: absolute;
+            color:#00dc6e ;
+            margin-top: 225px;
+            margin-left: 260px;
+         }
+
+         .section-line-left{
+            position: absolute;
+            width: 4px;
+            height: 25px;
+            border-radius: 50px;
+            background-color:#00b0ff ;
+            margin-top: 350px;
+            margin-left: 125px;
+         }
+         
+         h5.about-title{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            font-size: 20px;
+            margin-top: 350px;
+            margin-left: 140px;
+         }
+         h6.about-text1{
+            position: absolute;
+            line-height: 17px;
+            font-family: "Inter";
+            width: 330px;
+            margin-top: 390px;
+            margin-left: 140px;
+         }
+         h6.about-text2{
+            position: absolute;
+            line-height: 17px;
+            font-family: "Inter";
+            width: 330px;
+            margin-top: 440px;
+            margin-left: 140px;
+         }
+         h6.about-text3{
+            position: absolute;
+            line-height: 17px;
+            font-family: "Inter";
+            width: 330px;
+            margin-top: 505px;
+            margin-left: 140px;
+         }
+
+         .section-line-contact{
+            position: absolute;
+            width: 4px;
+            height: 25px;
+            border-radius: 50px;
+            background-color:#00b0ff ;
+            margin-top: 180px;
+            margin-left: 555px;
+         }
+         
+         h5.contact-title{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            font-size: 20px;
+            margin-top: 180px;
+            margin-left: 565px;
+         }
+
+         h6.contact-label1{
+            position: absolute;
+            color:#05ed79;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 220px;
+            margin-left: 565px;
+         }
+         p.contact-text1{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 220px;
+            margin-left: 595px;
+         }
+
+         h6.contact-label2{
+            position: absolute;
+            color:#05ed79 ;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 245px;
+            margin-left: 565px;
+         }
+         p.contact-text2{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 245px;
+            margin-left: 598px;
+         }
+
+         h6.contact-label3{
+            position: absolute;
+            color:#05ed79 ;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 270px;
+            margin-left: 565px;
+         }
+         p.contact-text3{
+            position: absolute;
+            font-family: "Barlow Condensed";
+            font-size: 14px;
+            margin-top: 270px;
+            margin-left: 603px;
+         }
+
+         .section-line-skills{
+            position: absolute;
+            width: 4px;
+            height: 25px;
+            border-radius: 50px;
+            background-color:#00b0ff ;
+            margin-top: 350px;
+            margin-left: 555px;
+         }
+         
+         h5.skills-title{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 20px;
+            margin-top: 350px;
+            margin-left: 570px;
+         }
+
+         h6.skill-python{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 15px;
+            color:#05ed79;
+            margin-top: 390px;
+            margin-left: 570px;
+         }
+         .skill-bar-outline1{
+            position: absolute;
+            width: 300px;
+            height: 10px;
+            border: 3px solid #00b0ff;
+            border-radius: 3px;
+            margin-top: 410px;
+            margin-left: 570px;
+         }
+         .skill-bar-fill1{
+            position: absolute;
+            width: 260px;
+            height: 16px;
+            border-radius: 3px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+            margin-top: 410px;
+            margin-left: 570px;
+         }
+
+         h6.skill-js{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 15px;
+            color:#05ed79;
+            margin-top: 425px;
+            margin-left: 570px;
+         }
+         .skill-bar-outline2{
+            position: absolute;
+            width: 300px;
+            height: 10px;
+            border: 3px solid #00b0ff;
+            border-radius: 3px;
+            margin-top: 445px;
+            margin-left: 570px;
+         }
+         .skill-bar-fill2{
+            position: absolute;
+            width: 260px;
+            height: 16px;
+            border-radius: 3px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+            margin-top: 445px;
+            margin-left: 570px;
+         }
+
+         h6.skill-java{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 15px;
+            color:#05ed79;
+            margin-top: 460px;
+            margin-left: 570px;
+         }
+         .skill-bar-outline3{
+            position: absolute;
+            width: 300px;
+            height: 10px;
+            border: 3px solid #00b0ff;
+            border-radius: 3px;
+            margin-top: 480px;
+            margin-left: 570px;
+         }
+         .skill-bar-fill3{
+            position: absolute;
+            width: 260px;
+            height: 16px;
+            border-radius: 3px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+            margin-top: 480px;
+            margin-left: 570px;
+         }
+
+         h6.skill-cpp{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 15px;
+            color:#05ed79;
+            margin-top: 495px;
+            margin-left: 570px;
+         }
+         .skill-bar-outline4{
+            position: absolute;
+            width: 300px;
+            height: 10px;
+            border: 3px solid #00b0ff;
+            border-radius: 3px;
+            margin-top: 515px;
+            margin-left: 570px;
+         }
+         .skill-bar-fill4{
+            position: absolute;
+            width: 260px;
+            height: 16px;
+            border-radius: 3px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+            margin-top: 515px;
+            margin-left: 570px;
+         }
+
+         h6.skill-ruby{
+            position: absolute;                 
+            font-family: "Barlow Condensed";
+            font-size: 15px;
+            color:#05ed79;
+            margin-top: 530px;
+            margin-left: 570px;
+         }
+         .skill-bar-outline5{
+            position: absolute;
+            width: 300px;
+            height: 10px;
+            border: 3px solid #00b0ff;
+            border-radius: 3px;
+            margin-top: 550px;
+            margin-left: 570px;
+         }
+         .skill-bar-fill5{
+            position: absolute;
+            width: 260px;
+            height: 16px;
+            border-radius: 3px;
+            background-image:linear-gradient(to right , #00b0ff,#48dda6 );
+            margin-top: 550px;
+            margin-left: 570px;
+         }
