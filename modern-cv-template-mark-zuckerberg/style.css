@@ -1,0 +1,550 @@
+
+    /* MAIN CONTAINER */
+    .rt_main_container{
+        position: relative;
+        width: 850px;
+        height: 1220px;
+        background-color: whitesmoke;
+    }
+
+    /* HEADER / TITLE */
+    p.rt_title_text{
+        position: absolute;
+        font-size: 25px;
+        font-family: "Signika Negative";
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    p.rt_subtitle_text{
+        position: absolute;
+        font-size: 13px;
+        font-family: "Signika Negative";
+        color:#47EDE1;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    p.rt_intro_paragraph{
+        position: absolute;
+        font-size: 13px;
+        font-family: "Signika Negative";
+        text-align: justify;
+        width: 800px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+
+    /* CONTACT BAR */
+    .rt_contact_bar{
+        position: absolute;
+        background-color: black;
+        border-radius: 5px;
+        width: 800px;
+        height: 70px;
+        margin-top: 145px;
+        margin-left: 20px;
+    }
+
+    .rt_contact_icon_email{
+        position: absolute;
+        color: white;
+        margin-top: 155px;
+        margin-left: 40px;
+    }
+    .rt_contact_label_email{
+        list-style: none;
+        position: absolute;
+        font-family: "Barlow Condensed";
+        font-size: 11px;
+        color: white;
+        margin-top: 155px;
+        margin-left: 70px;
+    }
+
+    .rt_contact_icon_location{
+        position: absolute;
+        color: white;
+        margin-top: 185px;
+        margin-left: 40px;
+    }
+    .rt_contact_label_location{
+        list-style: none;
+        position: absolute;
+        font-family: "Barlow Condensed";
+        font-size: 11px;
+        color: white;
+        margin-top: 185px;
+        margin-left: 70px;
+    }
+
+    .rt_contact_icon_phone{
+        position: absolute;
+        color: white;
+        margin-top: 155px;
+        margin-left: 440px;
+    }
+    .rt_contact_label_phone{
+        list-style: none;
+        position: absolute;
+        font-family: "Barlow Condensed";
+        font-size: 11px;
+        color: white;
+        margin-top: 155px;
+        margin-left: 465px;
+    }
+
+    .rt_contact_icon_user{
+        position: absolute;
+        color: white;
+        margin-top: 185px;
+        margin-left: 440px;
+    }
+    .rt_contact_label_user{
+        list-style: none;
+        position: absolute;
+        font-family: "Barlow Condensed";
+        font-size: 11px;
+        color: white;
+        margin-top: 185px;
+        margin-left: 465px;
+    }
+
+    /* EXPERTISE / TAGS */
+    .rt_expertise_icon{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 250px;
+        margin-left: 20px;
+    }
+
+    .rt_expertise_section_title{
+        list-style: none;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 17px;
+        margin-top: 251px;
+        margin-left: 55px;
+    }
+
+    h6.rt_expertise_businessman{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 250px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 300px;
+        margin-left: 20px;
+    }
+    h6.rt_expertise_education{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 200px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 300px;
+        margin-left: 280px;
+    }
+    h6.rt_expertise_location_text{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 150px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 300px;
+        margin-left: 490px;
+    }
+    h6.rt_expertise_spouse{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 160px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 335px;
+        margin-left: 20px;
+    }
+    h6.rt_expertise_history{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 220px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 335px;
+        margin-left: 190px;
+    }
+    h6.rt_expertise_city{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 85px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 335px;
+        margin-left: 420px;
+    }
+    h6.rt_expertise_board{
+        position: absolute;
+        background-color: grey;
+        font-family: "Roboto Condensed";
+        border-radius: 3px;
+        width: 120px;
+        height: 25px;
+        color: white;
+        text-align: center;
+        align-content: center;
+        margin-top: 335px;
+        margin-left: 515px;
+    }
+
+    /* PROGRESS BARS */
+    .rt_progress_bar_primary{
+        position:absolute;
+        width: 250px;
+        height: 8px;
+        border-radius: 3px;
+        background-color: black;
+        margin-top: 410px;
+        margin-left: 20px;
+    }
+    .rt_progress_bar_secondary{
+        position:absolute;
+        width: 270px;
+        height: 6px;
+        border-radius: 3px;
+        background-color:#15b9ae;
+        margin-top: 411px;
+        margin-left: 270px;
+    }
+    .rt_progress_bar_tertiary{
+        position:absolute;
+        width: 295px;
+        height: 4px;
+        border-radius: 3px;
+        background-color:#49dbd2;
+        margin-top: 412px;
+        margin-left: 540px;
+    }
+
+    /* WORK / TIMELINE */
+    .rt_work_icon{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 440px;
+        margin-left: 20px;
+    }
+    .rt_work_section_label{
+        list-style: none;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 18px;
+        margin-top: 441px;
+        margin-left: 60px;
+    }
+
+    .rt_timeline_line_top{
+        position:absolute;
+        width: 3px;
+        height: 20px;
+        border-radius: 3px;
+        background-color:grey;
+        margin-top: 465px;
+        margin-left: 34px;
+    }
+    .rt_timeline_dot_primary{
+        position:absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color:#49dbd2;
+        margin-top: 488px;
+        margin-left: 30px;
+    }
+    .rt_timeline_line_main{
+        position:absolute;
+        width: 3px;
+        height: 200px;
+        border-radius: 3px;
+        background-color:grey;
+        margin-top: 500px;
+        margin-left: 34px;
+    }
+
+    h3.rt_work_entry_title{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 17px;
+        margin-top: 484px;
+        margin-left: 60px;
+    }
+    p.rt_work_company_text{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 13px;
+        margin-top: 505px;
+        margin-left: 60px;
+    }
+    p.rt_work_info_text{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 10px;
+        color:#00d6c7;
+        line-height: 15px;
+        margin-top: 524px;
+        margin-left: 60px;
+    }
+
+    .rt_work_bullet_list{
+        position: absolute;
+        line-height: 22px;
+        font-family: "Roboto Condensed";
+        font-size: 13px;
+        margin-top: 560px;
+        margin-left: 30px;
+    }
+    .rt_work_bullet_list li::marker{
+        color: #49dbd2;
+    }
+
+    .rt_timeline_dot_secondary{
+        position:absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color:#49dbd2;
+        margin-top: 710px;
+        margin-left: 30px;
+    }
+
+    h3.rt_work_entry_title_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 17px;
+        margin-top: 705px;
+        margin-left: 60px;
+    }
+    p.rt_work_company_text_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 13px;
+        margin-top: 725px;
+        margin-left: 60px;
+    }
+    p.rt_work_info_text_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 10px;
+        color:#00d6c7;
+        line-height: 15px;
+        margin-top: 744px;
+        margin-left: 60px;
+    }
+
+    .rt_work_bullet_list_secondary{
+        position: absolute;
+        line-height: 22px;
+        font-family: "Roboto Condensed";
+        font-size: 13px;
+        margin-top: 775px;
+        margin-left: 30px;
+    }
+
+    /* EDUCATION PROGRESS BARS */
+    .rt_education_progress_bar_primary{
+        position:absolute;
+        width: 250px;
+        height: 8px;
+        border-radius: 3px;
+        background-color: black;
+        margin-top: 870px;
+        margin-left: 20px;
+    }
+    .rt_education_progress_bar_secondary{
+        position:absolute;
+        width: 270px;
+        height: 6px;
+        border-radius: 3px;
+        background-color:#15b9ae;
+        margin-top: 871px;
+        margin-left: 270px;
+    }
+    .rt_education_progress_bar_tertiary{
+        position:absolute;
+        width: 295px;
+        height: 4px;
+        border-radius: 3px;
+        background-color:#49dbd2;
+        margin-top: 872px;
+        margin-left: 540px;
+    }
+
+    .rt_education_icon{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 900px;
+        margin-left: 20px;
+    }
+    .rt_education_section_title{
+        list-style: none;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 18px;
+        margin-top: 901px;
+        margin-left: 60px;
+    }
+
+    .rt_education_line_top{
+        position:absolute;
+        width: 3px;
+        height: 15px;
+        border-radius: 3px;
+        background-color:grey;
+        margin-top: 925px;
+        margin-left: 34px;
+    }
+    .rt_education_dot_primary{
+        position:absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color:#49dbd2;
+        margin-top: 945px;
+        margin-left: 30px;
+    }
+
+    h3.rt_education_item_title{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 17px;
+        margin-top: 940px;
+        margin-left: 60px;
+    }
+    p.rt_education_detail_text{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 13px;
+        margin-top: 960px;
+        margin-left: 60px;
+    }
+    p.rt_education_date_text{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 12px;
+        color:#00d6c7;
+        line-height: 15px;
+        margin-top: 975px;
+        margin-left: 60px;
+    }
+
+    h3.rt_education_item_title_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 17px;
+        margin-top: 940px;
+        margin-left: 470px;
+    }
+    p.rt_education_detail_text_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 13px;
+        margin-top: 960px;
+        margin-left: 470px;
+    }
+    p.rt_education_date_text_secondary{
+        position: absolute;
+        font-family: "Inter";
+        font-size: 12px;
+        color:#00d6c7;
+        line-height: 15px;
+        margin-top: 975px;
+        margin-left: 470px;
+    }
+
+    /* CERTIFICATIONS */
+    .rt_cert_progress_bar_primary{
+        position:absolute;
+        width: 250px;
+        height: 8px;
+        border-radius: 3px;
+        background-color: black;
+        margin-top: 1040px;
+        margin-left: 20px;
+    }
+    .rt_cert_progress_bar_secondary{
+        position:absolute;
+        width: 270px;
+        height: 6px;
+        border-radius: 3px;
+        background-color:#15b9ae;
+        margin-top: 1041px;
+        margin-left: 270px;
+    }
+    .rt_cert_progress_bar_tertiary{
+        position:absolute;
+        width: 295px;
+        height: 4px;
+        border-radius: 3px;
+        background-color:#49dbd2;
+        margin-top: 1042px;
+        margin-left: 540px;
+    }
+
+    .rt_cert_icon{
+        position: absolute;
+        font-size: 25px;
+        margin-top: 1080px;
+        margin-left: 20px;
+    }
+    .rt_cert_section_title{
+        list-style: none;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 18px;
+        margin-top: 1081px;
+        margin-left: 60px;
+    }
+
+    .rt_cert_left_text{
+        position: absolute;
+        line-height: 42px;
+        font-family: "Roboto Condensed";
+        font-size: 13px;
+        margin-top: 1110px;
+        margin-left: 20px;
+    }
+    .rt_cert_right_text{
+        position: absolute;
+        font-family: "Roboto Condensed";
+        font-size: 13px;
+        margin-top: 1120px;
+        margin-left: 470px;
+    }
+
+    img.rt_cert_image{
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        margin-top: 1100px;
+        margin-left: 650px;
+    }
+
