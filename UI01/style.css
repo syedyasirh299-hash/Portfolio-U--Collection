@@ -1,0 +1,636 @@
+            .resume-container {
+                position: relative;
+                width: 730px;
+                height: 1000px;
+                background-color: white;
+            }
+
+            .left-circle-bg {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color: #eaf0e9;
+                margin-top: 190px;
+                margin-left: -30px;
+                border-radius: 400px;
+            }
+
+            .right-circle-bg {
+                position: absolute;
+                /* Create the circle */
+                width: 240px;
+                height: 240px;
+                background-color: #d5e1cf;
+                border-radius: 50%;
+                margin-top: 330px;
+                margin-left: 590px;
+            }
+
+            p.profile-name {
+                position: absolute;
+                font-family: "Mukta";
+                margin-left: 40px;
+                font-size: 40px;
+                line-height: 35px;
+                margin-top: 30px;
+            }
+
+            p.profile-role {
+                position: absolute;
+                margin-left: 40px;
+                font-family: "Dosis";
+                font-size: 25px;
+                line-height: 35px;
+                margin-top: 100px;
+            }
+
+            img.profile-img {
+                position: absolute;
+                width: 150px;
+                height: 220px;
+                margin-top: 150px;
+                margin-left: 40px;
+            }
+
+            h6.section-title-about {
+                position: absolute;
+                font-family: "Mukta";
+                margin-left: 40px;
+                font-size: 20px;
+                margin-top: 380px;
+            }
+
+            p.about-text {
+                position: absolute;
+                font-family: "Jost";
+                margin-left: 40px;
+                font-size: 12px;
+                width: 160px;
+                margin-top: 420px;
+            }
+
+            p.section-title-contact {
+                position: absolute;
+                font-family: "Kanit";
+                margin-left: 40px;
+                font-size: 20px;
+                margin-top: 700px;
+            }
+
+            ul.contact-icon-list {
+                position: absolute;
+                margin-left: 0px;
+                font-size: 10px;
+                list-style: none;
+                border-radius: 20px;
+                margin-top: 735px;
+            }
+
+            li.contact-icon-item {
+                background-color: black;
+                color: white;
+                width: 20px;
+                text-align: center;
+                align-content: center;
+                height: 20px;
+                margin: 5px;
+                border-radius: 50px;
+            }
+
+            ul.contact-text-list {
+                position: absolute;
+                margin-left: 35px;
+                font-size: 10px;
+                list-style: none;
+                line-height: 25px;
+                border-radius: 20px;
+                margin-top: 735px;
+            }
+
+            .yellow-bar-thick {
+                position: absolute;
+                background-color: #eac86b;
+                width: 480px;
+                height: 15px;
+                margin-left: 250px;
+                margin-top: 30px;
+            }
+
+            .yellow-bar-thin {
+                position: absolute;
+                background-color: #e6cc85;
+                width: 480px;
+                height: 7px;
+                margin-left: 250px;
+                margin-top: 55px;
+            }
+
+            p.section-title-education {
+                position: absolute;
+                font-family: "Kanit";
+                margin-left: 40px;
+                font-size: 25px;
+                margin-left: 250px;
+                margin-top: 72px;
+            }
+
+            hr.dotted-line-education {
+                position: absolute;
+                width: 270px;
+                letter-spacing: 4px;
+                border: 2px dotted black;
+                margin-left: 390px;
+                margin-top: 92px;
+            }
+
+            ul.timeline-dates-edu {
+                position: absolute;
+                font-size: 15px;
+                list-style: none;
+                line-height: 30px;
+                border-radius: 20px;
+                margin-left: 210px;
+                margin-top: 85px;
+            }
+
+            ul.timeline-dots-edu {
+                position: absolute;
+                font-size: 10px;
+                list-style: none;
+                line-height: 50px;
+                margin-left: 300px;
+                margin-top: 95px;
+            }
+
+            hr.timeline-line-edu {
+                position: absolute;
+                height: 90px;
+                letter-spacing: 4px;
+                border: 1px solid black;
+                margin-left: 344px;
+                margin-top: 125px;
+            }
+
+            h5.edu-title-1 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 112px;
+            }
+
+            p.edu-desc-1 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 14px;
+                margin-left: 330px;
+                margin-top: 130px;
+            }
+
+            h5.edu-title-2 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 162px;
+            }
+
+            p.edu-desc-2 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 14px;
+                margin-left: 330px;
+                margin-top: 180px;
+            }
+
+            h5.edu-title-3 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 212px;
+            }
+
+            p.edu-desc-3 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 14px;
+                margin-left: 330px;
+                margin-top: 230px;
+            }
+
+            p.section-title-experience {
+                position: absolute;
+                font-family: "Kanit";
+                margin-left: 40px;
+                font-size: 25px;
+                margin-left: 200px;
+                margin-top: 260px;
+            }
+
+            hr.dotted-line-experience {
+                position: absolute;
+                width: 200px;
+                letter-spacing: 4px;
+                border: 2px dotted black;
+                margin-left: 420px;
+                margin-top: 280px;
+            }
+
+            ul.timeline-dates-work {
+                position: absolute;
+                font-size: 15px;
+                list-style: none;
+                line-height: 30px;
+                border-radius: 20px;
+                margin-left: 170px;
+                margin-top: 270px;
+            }
+
+            ul.timeline-dots-work-1 {
+                position: absolute;
+                font-size: 10px;
+                list-style: none;
+                line-height: 50px;
+                margin-left: 260px;
+                margin-top: 282px;
+            }
+
+            hr.timeline-line-work-1 {
+                position: absolute;
+                height: 90px;
+                letter-spacing: 4px;
+                border: 1px solid black;
+                margin-left: 304px;
+                margin-top: 310px;
+            }
+
+            ul.timeline-dots-work-2 {
+                position: absolute;
+                font-size: 10px;
+                list-style: none;
+                line-height: 50px;
+                margin-left: 260px;
+                margin-top: 430px;
+            }
+
+            hr.timeline-line-work-2 {
+                position: absolute;
+                height: 90px;
+                letter-spacing: 4px;
+                border: 1px solid black;
+                margin-left: 304px;
+                margin-top: 410px;
+            }
+
+            h5.work-title-1 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 295px;
+            }
+
+            ul.work-desc-list-1 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 3px;
+                margin-left: 305px;
+                margin-top: 305px;
+            }
+
+            h5.work-title-2 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 345px;
+            }
+
+            ul.work-desc-list-2 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 3px;
+                margin-left: 305px;
+                margin-top: 355px;
+            }
+
+            h5.work-title-3 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 395px;
+            }
+
+            ul.work-desc-list-3 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 3px;
+                margin-left: 305px;
+                margin-top: 405px;
+            }
+
+            h5.work-title-4 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 445px;
+            }
+
+            ul.work-desc-list-4 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 3px;
+                margin-left: 305px;
+                margin-top: 455px;
+            }
+
+            h5.work-title-5 {
+                position: absolute;
+                font-size: 15px;
+                font-family: "Hind";
+                margin-left: 330px;
+                margin-top: 495px;
+            }
+
+            ul.work-desc-list-5 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                line-height: 3px;
+                margin-left: 305px;
+                margin-top: 505px;
+            }
+
+            p.section-title-skills {
+                position: absolute;
+                font-family: "Kanit";
+                margin-left: 40px;
+                font-size: 25px;
+                margin-left: 210px;
+                margin-top: 565px;
+            }
+
+            hr.dotted-line-skills {
+                position: absolute;
+                width: 320px;
+                letter-spacing: 4px;
+                border: 2px dotted black;
+                margin-left: 300px;
+                margin-top: 585px;
+            }
+
+            .skill-chart-1 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #d5e1cf;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(0deg);
+                margin-left: 210px;
+                margin-top: 610px;
+            }
+
+            .skill-mask-1 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid white;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(-130deg);
+                margin-left: 210px;
+                margin-top: 610px;
+            }
+
+            .skill-chart-2 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #e6cc85;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(0deg);
+                margin-left: 330px;
+                margin-top: 610px;
+            }
+
+            .skill-chart-3 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #e6cc85;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(-60deg);
+                margin-left: 330px;
+                margin-top: 610px;
+            }
+
+            .skill-chart-4 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #d5e1cf;
+                ;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(0deg);
+                margin-left: 450px;
+                margin-top: 610px;
+            }
+
+            .skill-mask-4 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid white;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(-160deg);
+                margin-left: 450px;
+                margin-top: 610px;
+            }
+
+            .skill-chart-5 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #d5e1cf;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(0deg);
+                margin-left: 570px;
+                margin-top: 610px;
+            }
+
+            .skill-mask-5 {
+                position: absolute;
+                /* Create the circle */
+                width: 60px;
+                height: 60px;
+                border: 10px solid #d5e1cf;
+                outline: 1px solid black;
+                border-radius: 50%;
+                /* Halve the circle */
+                border-right-color: transparent;
+                border-top-color: transparent;
+                border-left-color: transparent;
+                text-align: center;
+                align-content: center;
+                /* Rotate the circle */
+                transform: rotate(-70deg);
+                margin-left: 570px;
+                margin-top: 610px;
+            }
+
+            ul.skills-text-list {
+                position: absolute;
+                list-style: none;
+                display: flex;
+                font-size: 14px;
+                font-family: "Montserrat";
+                margin-left: 140px;
+                margin-top: 700px;
+            }
+
+            li.skill-item {
+                margin-left: 40px;
+            }
+
+            p.section-title-hobbies {
+                position: absolute;
+                font-family: "Kanit";
+                margin-left: 40px;
+                font-size: 25px;
+                margin-left: 210px;
+                margin-top: 740px;
+            }
+
+            hr.dotted-line-hobbies {
+                position: absolute;
+                width: 300px;
+                letter-spacing: 4px;
+                border: 2px dotted black;
+                margin-left: 320px;
+                margin-top: 760px;
+            }
+
+            ul.hobby-icons-list {
+                position: absolute;
+                list-style: none;
+                display: flex;
+                margin-left: 120px;
+                margin-top: 790px;
+            }
+
+            li.hobby-icon-bg-yellow {
+                background-color: #e6cc85;
+                width: 50px;
+                text-align: center;
+                border-radius: 50px;
+                align-content: center;
+                margin-left: 30px;
+                height: 50px;
+            }
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+
+            li.hobby-icon-bg-green {
+                background-color: #d5e1cf;
+                width: 50px;
+                text-align: center;
+                border-radius: 50px;
+                align-content: center;
+                margin-left: 30px;
+                height: 50px;
+            }
+
+            ul.hobby-text-list {
+                position: absolute;
+                list-style: none;
+                display: flex;
+                margin-left: 110px;
+                margin-top: 850px;
+            }
+
+            li.hobby-text-item {
+                margin-left: 30px;
+            }
+
+            .footer-bar-thin {
+                position: absolute;
+                background-color: #d5e1cf;
+                width: 730px;
+                height: 5px;
+                margin-top: 905px;
+                margin-left: -40px;
+            }
+
+            .footer-bar-thick {
+                position: absolute;
+                background-color: #d5e1cf;
+                width: 730px;
+                height: 15px;
+                margin-top: 920px;
+                margin-left: -40px;
+            }
