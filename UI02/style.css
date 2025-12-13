@@ -1,0 +1,309 @@
+     .resume-wrapper {
+                position: relative;
+                width: 730px;
+                height: 1000px;
+                background-color: white;
+            }
+
+            .teal-header-bar {
+                position: absolute;
+                width: 730px;
+                height: 125px;
+                background-color: #248888;
+                margin-top: 170px;
+            }
+
+            img.profile-avatar {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                border: 8px solid white;
+                margin-top: 110px;
+                margin-left: 280px;
+            }
+
+            h3.header-name {
+                position: absolute;
+                font-size: 30px;
+                font-family: "Roboto Slab";
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+
+            p.header-role {
+                position: absolute;
+                font-size: 30px;
+                font-family: "Roboto Slab";
+                margin-top: 60px;
+                margin-left: 30px;
+            }
+
+            ul.social-icons {
+                position: absolute;
+                font-size: 11px;
+                list-style: none;
+                margin-top: 60px;
+                margin-left: 530px;
+            }
+
+            li.social-icon-item {
+                color: white;
+                background-color: black;
+                text-align: center;
+                align-content: center;
+                border-radius: 50px;
+                margin-top: 6px;
+                width: 17px;
+                height: 17px;
+            }
+
+            ul.social-text {
+                position: absolute;
+                font-size: 12px;
+                list-style: none;
+                margin-top: 53px;
+                margin-left: 560px;
+            }
+
+            li.social-text-item {
+                margin-top: 12px;
+            }
+
+            .icon-location {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                margin-left: 50px;
+                margin-top: 190px;
+                font-size: 17px;
+                text-align: center;
+                align-content: center;
+                border: 2px solid white;
+                color: white;
+                background-color: #248888;
+                border-radius: 100px;
+            }
+
+            h6.address-text {
+                position: absolute;
+                margin-left: 95px;
+                margin-top: 200px;
+                font-size: 14px;
+                line-height: 18px;
+                color: white;
+            }
+
+            hr.divider-vertical-left {
+                position: absolute;
+                width: 2px;
+                height: 55px;
+                margin-left: 65px;
+                margin-top: 223px;
+                background-color: white;
+                border-radius: 100px;
+            }
+
+            hr.divider-vertical-right {
+                position: absolute;
+                width: 2px;
+                height: 40px;
+                margin-left: 515px;
+                margin-top: 220px;
+                background-color: white;
+                border-radius: 100px;
+            }
+
+            .icon-mail {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                margin-left: 500px;
+                margin-top: 190px;
+                font-size: 17px;
+                text-align: center;
+                align-content: center;
+                border: 2px solid white;
+                color: white;
+                background-color: #248888;
+                border-radius: 100px;
+            }
+
+            .icon-phone {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                margin-left: 500px;
+                margin-top: 240px;
+                font-size: 17px;
+                text-align: center;
+                align-content: center;
+                border: 2px solid white;
+                color: white;
+                background-color: #248888;
+                border-radius: 100px;
+            }
+
+            ul.contact-details-right {
+                position: absolute;
+                list-style: none;
+                margin-left: 505px;
+                margin-top: 180px;
+                font-size: 14px;
+                line-height: 50px;
+                color: white;
+            }
+
+            .section-header-wide {
+                position: absolute;
+                width: 300px;
+                height: 35px;
+                font-family: "Roboto Slab";
+                background-color: #e0e0e0;
+                align-content: center;
+                margin-top: 320px;
+                margin-left: 50px;
+            }
+
+            h4.header-title-text {
+                margin-top: 7px;
+                margin-left: 10px;
+            }
+
+            .section-header-narrow {
+                position: absolute;
+                width: 180px;
+                height: 35px;
+                font-family: "Roboto Slab";
+                background-color: #e0e0e0;
+                align-content: center;
+                margin-top: 320px;
+                margin-left: 500px;
+            }
+
+            p.profile-summary {
+                position: absolute;
+                font-family: "PT Sans";
+                width: 400px;
+                font-size: 14px;
+                margin-top: 370px;
+                margin-left: 50px;
+            }
+
+            ul.skills-list {
+                position: absolute;
+                list-style: none;
+                font-family: "PT Sans";
+                line-height: 19px;
+                font-size: 14px;
+                color: black;
+                margin-left: 460px;
+                margin-top: 370px;
+            }
+
+            .section-header-medium {
+                position: absolute;
+                width: 280px;
+                height: 35px;
+                font-family: "Roboto Slab";
+                background-color: #e0e0e0;
+                align-content: center;
+                margin-top: 485px;
+                margin-left: 50px;
+            }
+
+            h5.job-title-1 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                margin-top: 530px;
+                margin-left: 50px;
+            }
+
+            p.job-desc-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                width: 400px;
+                font-size: 14px;
+                margin-top: 580px;
+                margin-left: 50px;
+            }
+
+            h5.job-title-2 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                margin-top: 700px;
+                margin-left: 50px;
+            }
+
+            p.job-desc-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                width: 400px;
+                font-size: 14px;
+                margin-top: 750px;
+                margin-left: 50px;
+            }
+
+            .section-header-narrow-edu {
+                position: absolute;
+                width: 180px;
+                height: 35px;
+                font-family: "Roboto Slab";
+                background-color: #e0e0e0;
+                align-content: center;
+                margin-top: 530px;
+                margin-left: 500px;
+            }
+
+            h5.edu-year-1 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                margin-top: 580px;
+                margin-left: 500px;
+            }
+
+            p.edu-desc-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                font-size: 14px;
+                margin-top: 600px;
+                margin-left: 500px;
+            }
+
+            h5.edu-year-2 {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                font-size: 14px;
+                margin-top: 670px;
+                margin-left: 500px;
+            }
+
+            p.edu-desc-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                font-size: 14px;
+                margin-top: 690px;
+                margin-left: 500px;
+            }
+
+            .section-header-narrow-lang {
+                position: absolute;
+                width: 180px;
+                height: 35px;
+                font-family: "Roboto Slab";
+                background-color: #e0e0e0;
+                align-content: center;
+                margin-top: 780px;
+                margin-left: 500px;
+            }
+
+            p.lang-list {
+                position: absolute;
+                font-family: "PT Sans";
+                font-size: 14px;
+                margin-top: 840px;
+                margin-left: 500px;
+            }
