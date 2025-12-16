@@ -1,0 +1,409 @@
+            .resume-card {
+                position: relative;
+                width: 900px;
+                height: 550px;
+                background-color: #027d82;
+            }
+
+            ul.software-skills-list {
+                position: absolute;
+                list-style: none;
+                margin-top: -20px;
+                margin-left: 750px;
+            }
+
+            li.software-icon {
+                font-family: "Eczar";
+                width: 80px;
+                height: 80px;
+                background-color: white;
+                text-align: center;
+                color: #027d82;
+                border-radius: 50px;
+                font-size: 25px;
+            }
+
+            h1.software-text-large {
+                font-size: 40px;
+            }
+
+            .teal-background-panel {
+                position: absolute;
+                width: 600px;
+                height: 550px;
+                background-color: #44b1b6;
+                margin-left: 150px;
+            }
+
+            .white-content-panel {
+                position: absolute;
+                width: 600px;
+                height: 370px;
+                background-color: white;
+                margin-left: 150px;
+                margin-top: 180px;
+            }
+
+            .profile-image-frame {
+                position: absolute;
+                width: 170px;
+                height: 370px;
+                background-color: white;
+                border: 2px solid #44b1b6;
+                border-radius: 100px;
+                margin-left: 180px;
+                margin-top: 10px;
+            }
+
+            img.profile-img {
+                width: 150px;
+                height: 150px;
+                border-radius: 100px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+
+            p.sidebar-label-1 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-left: 250px;
+                margin-top: 190px;
+            }
+
+            p.sidebar-value-1 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 13px;
+                margin-left: 210px;
+                margin-top: 210px;
+            }
+
+            p.sidebar-label-2 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-left: 240px;
+                margin-top: 230px;
+            }
+
+            p.sidebar-value-2 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 13px;
+                margin-left: 225px;
+                margin-top: 250px;
+            }
+
+            p.sidebar-label-3 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-left: 250px;
+                margin-top: 270px;
+            }
+
+            p.sidebar-value-3 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 13px;
+                margin-left: 200px;
+                margin-top: 290px;
+            }
+
+            p.sidebar-label-4 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-left: 250px;
+                margin-top: 310px;
+            }
+
+            p.sidebar-value-4 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 13px;
+                margin-left: 230px;
+                margin-top: 330px;
+            }
+
+            h1.header-name {
+                position: absolute;
+                color: white;
+                font-family: "PT Sans";
+                font-size: 40px;
+                line-height: 35px;
+                margin-left: 390px;
+                margin-top: 30px;
+            }
+
+            h6.header-role {
+                position: absolute;
+                color: #78f4fb;
+                font-family: "PT Sans";
+                margin-left: 390px;
+                margin-top: 100px;
+            }
+
+            h1.header-company {
+                position: absolute;
+                color: #78f4fb;
+                font-family: "PT Sans";
+                margin-left: 390px;
+                margin-top: 110px;
+            }
+
+            ul.social-media-list {
+                position: absolute;
+                color: #027d82;
+                list-style: none;
+                display: flex;
+                margin-left: 350px;
+                margin-top: 153px;
+            }
+
+            li.social-media-item {
+                width: 15px;
+                height: 15px;
+                border-radius: 50px;
+                font-size: 10px;
+                text-align: center;
+                align-content: center;
+                background-color: white;
+                margin-left: 5px;
+            }
+
+            h5.section-badge-left {
+                position: absolute;
+                width: 85px;
+                height: 18px;
+                background-color: #44b1b6;
+                border-radius: 1px 50px 50px 1px;
+                align-content: center;
+                text-align: center;
+                color: white;
+                margin-top: 410px;
+                margin-left: 160px;
+            }
+
+            ul.timeline-dots-left {
+                position: absolute;
+                line-height: 50px;
+                margin-top: 430px;
+                margin-left: 140px;
+            }
+
+            .timeline-line-left {
+                position: absolute;
+                width: 1px;
+                height: 35px;
+                background-color: black;
+                margin-top: 460px;
+                margin-left: 167px;
+            }
+
+            p.timeline-title-left-1 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-top: 448px;
+                margin-left: 230px;
+            }
+
+            p.timeline-desc-left-1 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 9px;
+                margin-top: 465px;
+                margin-left: 230px;
+            }
+
+            p.timeline-title-left-2 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-top: 498px;
+                margin-left: 230px;
+            }
+
+            p.timeline-desc-left-2 {
+                position: absolute;
+                font-family: "DM Sans";
+                font-size: 9px;
+                margin-top: 515px;
+                margin-left: 230px;
+            }
+
+            .vertical-divider-main {
+                position: absolute;
+                width: 1px;
+                height: 380px;
+                background-color: #44b1b6;
+                margin-top: 180px;
+                margin-left: 400px;
+            }
+
+            .connector-line-1 {
+                position: absolute;
+                width: 10px;
+                height: 1px;
+                background-color: #44b1b6;
+                margin-top: 210px;
+                margin-left: 400px;
+            }
+
+            h5.section-badge-right-1 {
+                position: absolute;
+                width: 105px;
+                height: 18px;
+                background-color: #44b1b6;
+                border-radius: 1px 50px 50px 1px;
+                align-content: center;
+                text-align: center;
+                color: white;
+                margin-top: 202px;
+                margin-left: 410px;
+            }
+
+            p.section-text-right-1 {
+                position: absolute;
+                font-family: "DM Sans";
+                text-align: justify;
+                width: 310px;
+                font-size: 11px;
+                margin-top: 225px;
+                margin-left: 410px;
+            }
+
+            h5.section-badge-right-2 {
+                position: absolute;
+                width: 85px;
+                height: 18px;
+                background-color: #44b1b6;
+                border-radius: 1px 50px 50px 1px;
+                align-content: center;
+                text-align: center;
+                color: white;
+                margin-top: 290px;
+                margin-left: 410px;
+            }
+
+            .connector-line-2 {
+                position: absolute;
+                width: 10px;
+                height: 1px;
+                background-color: #44b1b6;
+                margin-top: 298px;
+                margin-left: 400px;
+            }
+
+            .timeline-line-right {
+                position: absolute;
+                width: 1px;
+                height: 122px;
+                background-color: black;
+                margin-top: 320px;
+                margin-left: 418px;
+            }
+
+            ul.timeline-dots-right {
+                position: absolute;
+                line-height: 60px;
+                margin-top: 290px;
+                margin-left: 390px;
+            }
+
+            p.timeline-title-right-1 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-top: 312px;
+                margin-left: 520px;
+            }
+
+            p.timeline-desc-right-1 {
+                position: absolute;
+                font-family: "DM Sans";
+                text-align: justify;
+                width: 200px;
+                font-size: 9px;
+                margin-top: 330px;
+                margin-left: 520px;
+            }
+
+            p.timeline-title-right-2 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-top: 372px;
+                margin-left: 520px;
+            }
+
+            p.timeline-desc-right-2 {
+                position: absolute;
+                font-family: "DM Sans";
+                text-align: justify;
+                width: 200px;
+                font-size: 9px;
+                margin-top: 390px;
+                margin-left: 520px;
+            }
+
+            p.timeline-title-right-3 {
+                position: absolute;
+                color: #44b1b6;
+                font-family: "Kanit";
+                font-size: 13px;
+                margin-top: 432px;
+                margin-left: 520px;
+            }
+
+            p.timeline-desc-right-3 {
+                position: absolute;
+                font-family: "DM Sans";
+                text-align: justify;
+                width: 200px;
+                font-size: 9px;
+                margin-top: 450px;
+                margin-left: 520px;
+            }
+
+            .connector-line-3 {
+                position: absolute;
+                width: 10px;
+                height: 1px;
+                background-color: #44b1b6;
+                margin-top: 498px;
+                margin-left: 400px;
+            }
+
+            h5.section-badge-right-3 {
+                position: absolute;
+                width: 85px;
+                height: 18px;
+                background-color: #44b1b6;
+                border-radius: 1px 50px 50px 1px;
+                align-content: center;
+                text-align: center;
+                color: white;
+                margin-top: 490px;
+                margin-left: 410px;
+            }
+
+            p.section-text-right-3 {
+                position: absolute;
+                font-family: "DM Sans";
+                text-align: justify;
+                width: 310px;
+                font-size: 11px;
+                margin-top: 515px;
+                margin-left: 410px;
+            }
