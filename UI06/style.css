@@ -1,0 +1,299 @@
+      .poster-container {
+                position: relative;
+                width: 610px;
+                height: 940px;
+                background-color: #f6f0e5;
+            }
+
+            img.bg-cloud-img {
+                position: absolute;
+                width: 800px;
+                height: 800px;
+                margin-top: -290px;
+                margin-left: -230px;
+                rotate: 15deg;
+            }
+
+            /* Note: In your original CSS, the second .bal rule overrides the width/height of the first. 
+               I have combined them here to reflect how the browser actually renders it. */
+            img.profile-circle-img {
+                position: absolute;
+                width: 250px;
+                height: 250px;
+                background-color: #b7eafb;
+                border-radius: 200px;
+                margin-top: 100px;
+                margin-left: 290px;
+            }
+
+            img.push-pin-img {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                margin-top: 110px;
+                margin-left: 490px;
+            }
+
+            h1.main-title {
+                position: absolute;
+                color: white;
+                font-family: "Roboto Mono";
+                line-height: 55px;
+                font-size: 60px;
+                margin-top: 50px;
+                margin-left: 40px;
+            }
+
+            h5.main-subtitle {
+                position: absolute;
+                color: white;
+                font-family: "Roboto Mono";
+                margin-top: 180px;
+                margin-left: 45px;
+            }
+
+            h3.section-heading-edu {
+                position: absolute;
+                color: #3fcbf9;
+                font-family: "Agdasima";
+                font-size: 30px;
+                margin-top: 400px;
+                margin-left: 55px;
+            }
+
+            img.tape-strip-1 {
+                position: absolute;
+                width: 30px;
+                height: 20px;
+                rotate: 250deg;
+                margin-top: 380px;
+                margin-left: 20px;
+            }
+
+            h6.section-content-edu {
+                position: absolute;
+                line-height: 20px;
+                font-family: "Roboto Condensed";
+                margin-top: 460px;
+                margin-left: 55px;
+            }
+
+            h3.section-heading-skills {
+                position: absolute;
+                color: #3fcbf9;
+                font-family: "Agdasima";
+                font-size: 30px;
+                margin-top: 540px;
+                margin-left: 55px;
+            }
+
+            img.tape-strip-2 {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                rotate: -140deg;
+                margin-top: 520px;
+                margin-left: 20px;
+            }
+
+            ul.skills-list {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                line-height: 4px;
+                list-style: none;
+                font-size: 14px;
+                margin-top: 600px;
+                margin-left: 5px;
+            }
+
+            .skill-bar-bg-1 {
+                position: absolute;
+                width: 70px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #ddd;
+                margin-top: 620px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-fill-1 {
+                position: absolute;
+                width: 45px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #3fcbf9;
+                margin-top: 620px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-bg-2 {
+                position: absolute;
+                width: 70px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #ddd;
+                margin-top: 640px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-fill-2 {
+                position: absolute;
+                width: 60px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #3fcbf9;
+                margin-top: 640px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-bg-3 {
+                position: absolute;
+                width: 70px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #ddd;
+                margin-top: 660px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-fill-3 {
+                position: absolute;
+                width: 60px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #3fcbf9;
+                margin-top: 660px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-bg-4 {
+                position: absolute;
+                width: 70px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #ddd;
+                margin-top: 680px;
+                margin-left: 170px;
+            }
+
+            .skill-bar-fill-4 {
+                position: absolute;
+                width: 50px;
+                height: 12px;
+                border-radius: 50px;
+                background-color: #3fcbf9;
+                margin-top: 680px;
+                margin-left: 170px;
+            }
+
+            h3.section-heading-contact {
+                position: absolute;
+                color: #3fcbf9;
+                font-family: "Agdasima";
+                font-size: 30px;
+                margin-top: 760px;
+                margin-left: 50px;
+            }
+
+            img.tape-strip-3 {
+                position: absolute;
+                width: 35px;
+                height: 20px;
+                rotate: 250deg;
+                margin-top: 740px;
+                margin-left: 20px;
+            }
+
+            ul.contact-icons {
+                position: absolute;
+                line-height: 25px;
+                list-style: none;
+                font-size: 12px;
+                margin-top: 830px;
+                margin-left: 10px;
+            }
+
+            ul.contact-text {
+                position: absolute;
+                font-family: "Roboto Condensed";
+                line-height: 25px;
+                list-style: none;
+                font-size: 12px;
+                margin-top: 830px;
+                margin-left: 40px;
+            }
+
+            .experience-card {
+                position: absolute;
+                width: 260px;
+                height: 520px;
+                border-radius: 3px;
+                background-color: #e2cdad;
+                margin-top: 390px;
+                margin-left: 300px;
+            }
+
+            img.paperclip-img {
+                position: absolute;
+                width: 55px;
+                height: 55px;
+                rotate: -39deg;
+                margin-top: 365px;
+                margin-left: 500px;
+            }
+
+            h3.card-heading-exp {
+                position: absolute;
+                color: #3fcbf9;
+                font-family: "Agdasima";
+                font-size: 30px;
+                margin-top: 400px;
+                margin-left: 320px;
+            }
+
+            img.card-tape-strip {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                rotate: -150deg;
+                margin-top: 367px;
+                margin-left: 260px;
+            }
+
+            h6.exp-role-1 {
+                position: absolute;
+                line-height: 20px;
+                font-family: "Roboto Condensed";
+                margin-top: 460px;
+                margin-left: 320px;
+            }
+
+            ul.exp-details-1 {
+                position: absolute;
+                width: 170px;
+                line-height: 20px;
+                font-family: "Roboto Condensed";
+                margin-top: 520px;
+                margin-left: 300px;
+            }
+
+            li.exp-item {
+                margin-top: -30px;
+            }
+
+            h6.exp-role-2 {
+                position: absolute;
+                line-height: 20px;
+                font-family: "Roboto Condensed";
+                margin-top: 700px;
+                margin-left: 320px;
+            }
+
+            ul.exp-details-2 {
+                position: absolute;
+                width: 170px;
+                line-height: 20px;
+                font-family: "Roboto Condensed";
+                margin-top: 760px;
+                margin-left: 300px;
+            }
