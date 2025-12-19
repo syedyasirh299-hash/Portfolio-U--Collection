@@ -1,0 +1,322 @@
+            .resume-wrapper {
+                position: relative;
+                width: 700px;
+                height: 800px;
+            }
+
+            img.background-texture {
+                position: absolute;
+                width: 700px;
+                height: 800px;
+            }
+
+            p.header-title {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 30px;
+                margin-top: 30px;
+                margin-left: 150px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.header-subtitle {
+                position: absolute;
+                font-family: "Montserrat";
+                margin-top: 75px;
+                margin-left: 210px;
+            }
+
+            .header-divider-line {
+                position: absolute;
+                width: 630px;
+                height: 30px;
+                border-top: 2px solid #ffdb9d;
+                border-bottom: 2px solid #ffdb9d;
+                margin-top: 120px;
+                margin-left: 0px;
+            }
+
+            ul.contact-icons-row {
+                position: absolute;
+                display: flex;
+                font-size: 12px;
+                list-style: none;
+                margin-top: 130px;
+                margin-left: -30px;
+            }
+
+            li.icon-spacing-1 {
+                margin-left: 110px;
+            }
+
+            li.icon-spacing-2 {
+                margin-left: 140px;
+            }
+
+            li.icon-spacing-3 {
+                margin-left: 150px;
+            }
+
+            p.contact-phone {
+                font-size: 12px;
+                position: absolute;
+                margin-top: 130px;
+                margin-left: 30px;
+            }
+
+            p.contact-email {
+                font-size: 12px;
+                position: absolute;
+                margin-top: 130px;
+                margin-left: 150px;
+            }
+
+            p.contact-city {
+                font-size: 12px;
+                position: absolute;
+                margin-top: 130px;
+                margin-left: 300px;
+            }
+
+            p.contact-web {
+                font-size: 12px;
+                position: absolute;
+                margin-top: 130px;
+                margin-left: 470px;
+            }
+
+            h5.section-title-skills {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                word-spacing: 5px;
+                margin-top: 175px;
+                margin-left: 20px;
+                color: rgb(217, 118, 5);
+            }
+
+            .skill-badge-1 {
+                position: absolute;
+                width: 70px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 210px;
+                margin-left: 20px;
+            }
+
+            .skill-badge-2 {
+                position: absolute;
+                width: 50px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 210px;
+                margin-left: 100px;
+            }
+
+            .skill-badge-3 {
+                position: absolute;
+                width: 100px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 235px;
+                margin-left: 20px;
+            }
+
+            .skill-badge-4 {
+                position: absolute;
+                width: 50px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 235px;
+                margin-left: 130px;
+            }
+
+            .skill-badge-5 {
+                position: absolute;
+                width: 100px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 260px;
+                margin-left: 20px;
+            }
+
+            .skill-badge-6 {
+                position: absolute;
+                width: 60px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 260px;
+                margin-left: 130px;
+            }
+
+            .skill-badge-7 {
+                position: absolute;
+                width: 120px;
+                height: 20px;
+                background-color: #ffeeaa;
+                font-family: "Roboto";
+                font-size: 12px;
+                text-align: center;
+                align-content: center;
+                margin-top: 285px;
+                margin-left: 20px;
+            }
+
+            h5.section-title-edu {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                margin-top: 330px;
+                margin-left: 20px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.edu-item-1 {
+                position: absolute;
+                font-family: "Inter";
+                font-size: 12px;
+                margin-top: 360px;
+                margin-left: 20px;
+            }
+
+            p.edu-item-2 {
+                position: absolute;
+                font-size: 12px;
+                font-family: "Inter";
+                margin-top: 430px;
+                margin-left: 20px;
+            }
+
+            h5.section-title-portfolio {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                margin-top: 500px;
+                margin-left: 20px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.portfolio-intro {
+                position: absolute;
+                font-family: "Inter";
+                font-size: 10px;
+                margin-top: 520px;
+                margin-left: 20px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.portfolio-item-1 {
+                position: absolute;
+                width: 220px;
+                font-size: 12px;
+                line-height: 15px;
+                font-family: "Inter";
+                margin-top: 550px;
+                margin-left: 20px;
+            }
+
+            p.portfolio-item-2 {
+                position: absolute;
+                width: 220px;
+                font-size: 12px;
+                line-height: 15px;
+                font-family: "Inter";
+                margin-top: 630px;
+                margin-left: 20px;
+            }
+
+            p.portfolio-item-3 {
+                position: absolute;
+                width: 220px;
+                font-size: 12px;
+                line-height: 15px;
+                font-family: "Inter";
+                margin-top: 720px;
+                margin-left: 20px;
+            }
+
+            h5.section-title-profile {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                word-spacing: 5px;
+                margin-top: 175px;
+                margin-left: 260px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.profile-text {
+                position: absolute;
+                font-size: 12px;
+                line-height: 15px;
+                font-family: "Inter";
+                margin-top: 205px;
+                margin-left: 260px;
+            }
+
+            h5.section-title-experience {
+                position: absolute;
+                font-family: "Playfair Display";
+                font-size: 15px;
+                margin-top: 330px;
+                margin-left: 260px;
+                color: rgb(217, 118, 5);
+            }
+
+            p.experience-intro {
+                position: absolute;
+                font-family: "Inter";
+                font-size: 12px;
+                margin-top: 360px;
+                margin-left: 260px;
+            }
+
+            ul.experience-list-1 {
+                position: absolute;
+                width: 380px;
+                font-family: "Inter";
+                font-size: 12px;
+                margin-top: 400px;
+                margin-left: 240px;
+            }
+
+            p.experience-intro-2 {
+                position: absolute;
+                font-family: "Inter";
+                font-size: 12px;
+                margin-top: 560px;
+                margin-left: 260px;
+            }
+
+            ul.experience-list-2 {
+                position: absolute;
+                width: 380px;
+                font-family: "Inter";
+                font-size: 12px;
+                margin-top: 600px;
+                margin-left: 240px;
+            }
