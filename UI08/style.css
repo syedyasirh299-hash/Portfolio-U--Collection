@@ -1,0 +1,199 @@
+          .card-container {
+                position: relative;
+                width: 750px;
+                height: 500px;
+                background: rgb(231, 231, 231);
+                background: linear-gradient(53deg, rgba(231, 231, 231, 1) 30%, rgba(249, 249, 249, 1) 30%, rgba(253, 253, 253, 1) 71%, rgba(255, 255, 255, 1) 72%, rgba(175, 248, 253, 1) 72%);
+            }
+
+            ul.top-nav {
+                position: absolute;
+                list-style: none;
+                font-size: 15px;
+                display: flex;
+                font-family: "Roboto Condensed";
+                margin-top: 20px;
+                margin-left: 280px;
+            }
+
+            li.nav-item {
+                margin-left: 30px;
+            }
+
+            .menu-toggle-btn {
+                width: 30px;
+                height: 30px;
+                background-color: white;
+                border-radius: 50px;
+                text-align: center;
+                align-content: center;
+                position: absolute;
+                margin-left: 700px;
+                margin-top: 13px;
+            }
+
+            .content-card-bg {
+                position: absolute;
+                width: 570px;
+                height: 425px;
+                background-color: rgb(255, 255, 255);
+                margin-top: 70px;
+                margin-left: 50px;
+            }
+
+            .header-banner {
+                position: absolute;
+                width: 550px;
+                height: 200px;
+                background-color: #aff8fd;
+                margin-top: 80px;
+                margin-left: 60px;
+            }
+
+            img.profile-avatar-large {
+                position: absolute;
+                width: 130px;
+                height: 130px;
+                border-radius: 100px;
+                margin-top: 110px;
+                margin-left: 100px;
+            }
+
+            h2.profile-name {
+                position: absolute;
+                font-size: 30px;
+                font-family: "Mukta";
+                margin-top: 120px;
+                margin-left: 260px;
+            }
+
+            p.profile-job-title {
+                position: absolute;
+                font-size: 13px;
+                font-family: "Montserrat";
+                color: grey;
+                margin-top: 160px;
+                margin-left: 260px;
+            }
+
+            ul.social-icons-list {
+                position: absolute;
+                display: flex;
+                list-style: none;
+                margin-top: 210px;
+                margin-left: 200px;
+            }
+
+            li.social-item {
+                margin-left: 25px;
+                font-size: smaller;
+                color: black;
+            }
+
+            .sidebar-img-box {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                margin-top: 70px;
+                margin-left: 620px;
+            }
+
+            img.sidebar-avatar-small {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                border-radius: 100px;
+                margin-left: 3px;
+                margin-top: 5px;
+            }
+
+            .sidebar-nav-item-1 {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                text-align: center;
+                align-content: center;
+                margin-top: 120px;
+                margin-left: 620px;
+            }
+
+            .sidebar-nav-item-2 {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                text-align: center;
+                align-content: center;
+                margin-top: 170px;
+                margin-left: 620px;
+            }
+
+            .sidebar-nav-item-3 {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                font-size: 20px;
+                text-align: center;
+                align-content: center;
+                margin-top: 220px;
+                margin-left: 620px;
+            }
+
+            .sidebar-nav-item-4 {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                text-align: center;
+                align-content: center;
+                margin-top: 270px;
+                margin-left: 620px;
+            }
+
+            .sidebar-nav-item-5 {
+                position: absolute;
+                width: 45px;
+                height: 50px;
+                background-color: white;
+                text-align: center;
+                align-content: center;
+                margin-top: 320px;
+                margin-left: 620px;
+            }
+
+            h6.about-heading {
+                position: absolute;
+                font-family: "Mukta";
+                margin-left: 80px;
+                font-size: 20px;
+                margin-top: 290px;
+            }
+
+            p.about-text {
+                position: absolute;
+                font-family: "Jost";
+                margin-left: 80px;
+                width: 530px;
+                line-height: 18px;
+                font-size: 11px;
+                font-family: "Montserrat";
+                margin-top: 350px;
+            }
+
+            .brand-logo-icon {
+                position: absolute;
+                font-size: 30px;
+                color: #aff8fd;
+                margin-top: 7px;
+                margin-left: 45px;
+            }
+
+            p.brand-logo-text {
+                position: absolute;
+                font-family: "Satisfy";
+                margin-top: 13px;
+                margin-left: 80px;
+            }
