@@ -1,0 +1,585 @@
+            .resume-wrapper {
+                position: relative;
+                width: 780px;
+                height: 1000px;
+                background-color: #afb3b9;
+            }
+
+            .main-shadow-box {
+                position: absolute;
+                width: 740px;
+                height: 960px;
+                background-color: #cfcdd0;
+                margin-top: 20px;
+                margin-left: 20px;
+                box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+            }
+
+            .header-polygon {
+                position: absolute;
+                width: 600px;
+                height: 220px;
+                background-color: white;
+                margin-top: 90px;
+                margin-left: 80px;
+                clip-path: polygon(50% 0%, 100% 0, 100% 85%, 92% 100%, 0 100%, 0% 60%, 0 0);
+            }
+
+            img.profile-img-polygon {
+                position: absolute;
+                width: 180px;
+                height: 200px;
+                filter: grayscale(100%);
+                margin-left: 414px;
+                margin-top: 10px;
+                clip-path: polygon(50% 0%, 100% 0, 100% 86%, 81% 100%, 0 100%, 0% 60%, 0 0);
+            }
+
+            .header-accent-yellow {
+                position: absolute;
+                width: 15px;
+                height: 10px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+
+            p.header-name {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 30px;
+                margin-top: 2px;
+                margin-left: 20px;
+            }
+
+            h6.header-role-primary {
+                position: absolute;
+                font-family: "PT Sans";
+                font-size: 12px;
+                margin-top: 17px;
+                margin-left: 170px;
+            }
+
+            h6.header-role-secondary {
+                position: absolute;
+                font-family: "PT Sans";
+                font-size: 12px;
+                margin-top: 50px;
+                margin-left: 20px;
+            }
+
+            .bio-box-yellow {
+                position: absolute;
+                font-family: "PT Sans";
+                background-color: #FEDD00;
+                opacity: .8;
+                width: 420px;
+                height: 90px;
+                font-size: 16px;
+                margin-top: 110px;
+                margin-left: 20px;
+            }
+
+            h6.bio-text {
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 10px;
+                color: black;
+            }
+
+            .section-accent-left-1 {
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 382px;
+                margin-left: 80px
+            }
+
+            p.section-title-left-1 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 23px;
+                margin-top: 370px;
+                margin-left: 90px;
+            }
+
+            h6.exp-role-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 410px;
+                margin-left: 110px;
+            }
+
+            h6.exp-desc-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: grey;
+                font-size: 10px;
+                margin-top: 430px;
+                margin-left: 150px;
+            }
+
+            h6.exp-role-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 450px;
+                margin-left: 110px;
+            }
+
+            h6.exp-desc-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: grey;
+                font-size: 10px;
+                margin-top: 470px;
+                margin-left: 150px;
+            }
+
+            h6.exp-role-3 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 490px;
+                margin-left: 110px;
+            }
+
+            h6.exp-desc-3 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: grey;
+                font-size: 10px;
+                margin-top: 510px;
+                margin-left: 150px;
+            }
+
+            .section-accent-right-1 {
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 382px;
+                margin-left: 530px
+            }
+
+            p.section-title-right-1 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 23px;
+                margin-top: 370px;
+                margin-left: 540px;
+            }
+
+            ul.skills-list {
+                position: absolute;
+                font-family: "PT Sans";
+                line-height: 0px;
+                list-style: none;
+                font-size: 15px;
+                margin-top: 410px;
+                margin-left: 520px;
+            }
+
+            li.skill-item {
+                margin-top: -9px;
+            }
+
+            .horizontal-line-left {
+                position: absolute;
+                width: 330px;
+                height: 2px;
+                background-color: black;
+                margin-top: 550px;
+                margin-left: 90px;
+            }
+
+            .section-accent-left-2 {
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 592px;
+                margin-left: 80px
+            }
+
+            p.section-title-left-2 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 23px;
+                margin-top: 580px;
+                margin-left: 90px;
+            }
+
+            h6.edu-role-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 620px;
+                margin-left: 110px;
+            }
+
+            h6.edu-desc-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: grey;
+                font-size: 10px;
+                margin-top: 640px;
+                margin-left: 150px;
+            }
+
+            h6.edu-role-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 660px;
+                margin-left: 110px;
+            }
+
+            h6.edu-desc-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: grey;
+                font-size: 10px;
+                margin-top: 680px;
+                margin-left: 150px;
+            }
+
+            .section-accent-right-2 {
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 592px;
+                margin-left: 530px;
+            }
+
+            p.section-title-right-2 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 23px;
+                margin-top: 580px;
+                margin-left: 540px;
+            }
+
+            h6.lang-name-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 620px;
+                margin-left: 560px;
+            }
+
+            .checked {
+                color: orange;
+            }
+
+            .checke {
+                color: black;
+            }
+
+            ul.star-rating-1 {
+                list-style: none;
+                position: absolute;
+                margin-top: 619px;
+                margin-left: 560px;
+                display: flex;
+                font-size: 11px;
+                color: white;
+            }
+
+            li.star-item {
+                margin: 2px;
+            }
+
+            h6.lang-name-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 650px;
+                margin-left: 560px;
+            }
+
+            ul.star-rating-2 {
+                list-style: none;
+                position: absolute;
+                margin-top: 649px;
+                margin-left: 560px;
+                display: flex;
+                font-size: 11px;
+                color: white;
+            }
+
+            h6.lang-name-3 {
+                position: absolute;
+                font-family: "PT Sans";
+                word-spacing: 4px;
+                font-size: 11px;
+                margin-top: 680px;
+                margin-left: 560px;
+            }
+
+            ul.star-rating-3 {
+                list-style: none;
+                position: absolute;
+                margin-top: 679px;
+                margin-left: 560px;
+                display: flex;
+                font-size: 11px;
+                color: white;
+            }
+
+            .horizontal-line-bottom {
+                position: absolute;
+                width: 330px;
+                height: 2px;
+                background-color: black;
+                margin-top: 725px;
+                margin-left: 90px;
+            }
+
+            .section-accent-left-3 {
+                position: absolute;
+                width: 18px;
+                height: 12px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 767px;
+                margin-left: 80px
+            }
+
+            p.section-title-left-3 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                font-size: 23px;
+                margin-top: 755px;
+                margin-left: 90px
+            }
+
+            .sticky-note-icon-1 {
+                position: absolute;
+                color: grey;
+                font-size: 60px;
+                margin-top: 800px;
+                margin-left: 110px;
+            }
+
+            h5.soft-abbr-1 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                color: grey;
+                font-size: 23px;
+                margin-top: 810px;
+                margin-left: 120px;
+            }
+
+            .soft-label-box-1 {
+                position: absolute;
+                width: 80px;
+                height: 19px;
+                background-color: #FEDD00;
+                font-family: "PT Sans";
+                text-align: center;
+                align-content: center;
+                margin-top: 820px;
+                margin-left: 155px;
+            }
+
+            .soft-percent-1 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: black;
+                font-size: 13px;
+                margin-top: 787px;
+                margin-left: 180px;
+            }
+
+            .sticky-note-icon-2 {
+                position: absolute;
+                color: grey;
+                font-size: 60px;
+                margin-top: 800px;
+                margin-left: 270px;
+            }
+
+            h5.soft-abbr-2 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                color: grey;
+                font-size: 23px;
+                margin-top: 810px;
+                margin-left: 280px;
+            }
+
+            .soft-label-box-2 {
+                position: absolute;
+                width: 80px;
+                height: 19px;
+                background-color: #FEDD00;
+                font-family: "PT Sans";
+                text-align: center;
+                align-content: center;
+                margin-top: 820px;
+                margin-left: 315px;
+            }
+
+            .soft-percent-2 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: black;
+                font-size: 13px;
+                margin-top: 787px;
+                margin-left: 340px;
+            }
+
+            .sticky-note-icon-3 {
+                position: absolute;
+                color: grey;
+                font-size: 60px;
+                margin-top: 800px;
+                margin-left: 430px;
+            }
+
+            h5.soft-abbr-3 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                color: grey;
+                font-size: 23px;
+                margin-top: 810px;
+                margin-left: 440px;
+            }
+
+            .soft-label-box-3 {
+                position: absolute;
+                width: 80px;
+                height: 19px;
+                background-color: #FEDD00;
+                font-family: "PT Sans";
+                text-align: center;
+                align-content: center;
+                margin-top: 820px;
+                margin-left: 475px;
+            }
+
+            .soft-percent-3 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: black;
+                font-size: 13px;
+                margin-top: 787px;
+                margin-left: 500px;
+            }
+
+            .sticky-note-icon-4 {
+                position: absolute;
+                color: grey;
+                font-size: 60px;
+                margin-top: 800px;
+                margin-left: 590px;
+            }
+
+            h5.soft-abbr-4 {
+                position: absolute;
+                font-family: "Akaya Kanadaka";
+                color: grey;
+                font-size: 23px;
+                margin-top: 810px;
+                margin-left: 600px;
+            }
+
+            .soft-label-box-4 {
+                position: absolute;
+                width: 80px;
+                height: 19px;
+                background-color: #FEDD00;
+                font-family: "PT Sans";
+                text-align: center;
+                align-content: center;
+                margin-top: 820px;
+                margin-left: 635px;
+            }
+
+            .soft-percent-4 {
+                position: absolute;
+                font-family: "PT Sans";
+                color: black;
+                font-size: 13px;
+                margin-top: 787px;
+                margin-left: 660px;
+            }
+
+            .footer-container {
+                position: absolute;
+                width: 740px;
+                height: 70px;
+                background-color: white;
+                margin-top: 910px;
+                margin-left: 20px;
+            }
+
+            .footer-accent-1 {
+                position: absolute;
+                width: 15px;
+                height: 5px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 38px;
+                margin-left: 66px;
+            }
+
+            .footer-img-facebook {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                margin-top: 25px;
+                margin-left: 70px;
+            }
+
+            .footer-accent-2 {
+                position: absolute;
+                width: 11px;
+                height: 5px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 38px;
+                margin-left: 350px;
+            }
+
+            .footer-icon-clock {
+                position: absolute;
+                font-size: 20px;
+                margin-top: 25px;
+                margin-left: 360px;
+            }
+
+            .footer-accent-3 {
+                position: absolute;
+                width: 11px;
+                height: 5px;
+                background-color: #FEDD00;
+                border-radius: 3px 0px 0px 3px;
+                margin-top: 38px;
+                margin-left: 630px;
+            }
+
+            .footer-icon-behance {
+                position: absolute;
+                font-size: 20px;
+                margin-top: 25px;
+                margin-left: 640px;
+            }
