@@ -1,0 +1,608 @@
+            .layout-container {
+                position: relative;
+                width: 1200px;
+                height: 850px;
+                background-color: #d9d9d9;
+            }
+
+            .left-page-background {
+                position: absolute;
+                width: 550px;
+                height: 810px;
+                background-color: #eaeaea;
+                margin-top: 20px;
+                margin-left: 20px;
+                box-shadow: 6px 7px 13px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 6px 7px 13px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 6px 7px 13px 0px rgba(0, 0, 0, 0.75);
+            }
+
+            .right-page-background {
+                position: absolute;
+                width: 550px;
+                height: 810px;
+                background-color: #eaeaea;
+                margin-top: 20px;
+                margin-left: 620px;
+                box-shadow: 6px 3px 18px -3px rgba(0, 0, 0, 0.74);
+                -webkit-box-shadow: 6px 3px 18px -3px rgba(0, 0, 0, 0.74);
+                -moz-box-shadow: 6px 3px 18px -3px rgba(0, 0, 0, 0.74);
+            }
+
+            .left-page-accent-line {
+                position: absolute;
+                width: 15px;
+                height: 80px;
+                background-color: white;
+                margin-top: 70px;
+                margin-left: 70px;
+            }
+
+            h6.header-role-small {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 70px;
+                margin-left: 110px;
+            }
+
+            h2.header-name-large {
+                font-family: "inter";
+                position: absolute;
+                margin-top: 120px;
+                margin-left: 110px;
+            }
+
+            p.vertical-hello-text {
+                font-size: 13px;
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 70px;
+                margin-left: 500px;
+            }
+
+            p.header-role-medium {
+                font-family: "inter";
+                position: absolute;
+                margin-top: 250px;
+                margin-left: 110px;
+            }
+
+            .profile-section-bg {
+                position: absolute;
+                width: 400px;
+                height: 390px;
+                background-color: white;
+                margin-top: 360px;
+                margin-left: 110px;
+            }
+
+            .image-bg-box {
+                position: absolute;
+                width: 150px;
+                height: 250px;
+                background-color: white;
+                margin-top: 250px;
+                margin-left: 360px;
+            }
+
+            img.profile-photo-left {
+                position: absolute;
+                width: 140px;
+                height: 190px;
+                background-color: white;
+                margin-top: 300px;
+                margin-left: 370px;
+            }
+
+            p.section-number-01 {
+                font-family: "Barlow Condensed";
+                position: absolute;
+                font-size: 45px;
+                color: #aaa;
+                margin-top: 323px;
+                margin-left: 140px;
+            }
+
+            .section-divider-01 {
+                position: absolute;
+                width: 100px;
+                height: 12px;
+                background-color: #aaa;
+                margin-top: 360px;
+                margin-left: 250px;
+            }
+
+            h6.brand-name-small {
+                font-family: "Barlow Condensed";
+                font-size: 9px;
+                position: absolute;
+                color: #aaa;
+                margin-top: 350px;
+                margin-left: 70px;
+            }
+
+            h3.rotated-title-profile {
+                rotate: -90deg;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 420px;
+                margin-left: 60px;
+            }
+
+            h6.about-heading {
+                font-size: 11px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 404px;
+                margin-left: 140px;
+            }
+
+            p.about-text-content {
+                text-align: justify;
+                width: 210px;
+                font-size: 9px;
+                font-family: "inter";
+                line-height: 12px;
+                position: absolute;
+                margin-top: 420px;
+                margin-left: 140px;
+            }
+
+            h6.social-link-fb {
+                font-size: 11px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 530px;
+                margin-left: 140px;
+            }
+
+            h6.role-chairman {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 530px;
+                margin-left: 250px;
+            }
+
+            p.company-meta {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 545px;
+                margin-left: 250px;
+            }
+
+            h6.heading-relatives {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 570px;
+                margin-left: 250px;
+            }
+
+            p.text-relatives {
+                font-size: 9px;
+                font-family: "inter";
+                line-height: 13px;
+                position: absolute;
+                margin-top: 585px;
+                margin-left: 250px;
+            }
+
+            h6.heading-spouse {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 530px;
+                margin-left: 390px;
+            }
+
+            p.text-spouse {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 545px;
+                margin-left: 390px;
+            }
+
+            h6.heading-address {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 570px;
+                margin-left: 390px;
+            }
+
+            p.text-address {
+                font-size: 9px;
+                font-family: "inter";
+                line-height: 13px;
+                position: absolute;
+                margin-top: 585px;
+                margin-left: 390px;
+            }
+
+            .separator-line-middle {
+                position: absolute;
+                width: 360px;
+                height: 1px;
+                background-color: black;
+                margin-top: 625px;
+                margin-left: 130px;
+            }
+
+            h6.role-cofounder-1 {
+                font-size: 11px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 640px;
+                margin-left: 140px;
+            }
+
+            h6.role-cofounder-2 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 640px;
+                margin-left: 250px;
+            }
+
+            p.company-meta-2 {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 655px;
+                margin-left: 250px;
+            }
+
+            h6.heading-email {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 680px;
+                margin-left: 250px;
+            }
+
+            p.text-email {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 695px;
+                margin-left: 250px;
+            }
+
+            h6.heading-address-2 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 640px;
+                margin-left: 390px;
+            }
+
+            p.text-address-2 {
+                font-size: 9px;
+                font-family: "inter";
+                line-height: 13px;
+                position: absolute;
+                margin-top: 655px;
+                margin-left: 390px;
+            }
+
+            h6.heading-phone {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 680px;
+                margin-left: 390px;
+            }
+
+            p.text-phone {
+                font-size: 9px;
+                font-family: "inter";
+                line-height: 13px;
+                position: absolute;
+                margin-top: 695px;
+                margin-left: 390px;
+            }
+
+            p.footer-page-num-left {
+                font-size: 8px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 780px;
+                margin-left: 90px;
+            }
+
+            h6.footer-location-left {
+                font-size: 8px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 780px;
+                margin-left: 420px;
+            }
+
+            .right-page-accent-line {
+                position: absolute;
+                width: 17px;
+                height: 50px;
+                background-color: white;
+                margin-top: 70px;
+                margin-left: 60px;
+            }
+
+            p.right-page-header-1 {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 70px;
+                margin-left: 110px;
+            }
+
+            p.right-page-header-2 {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 90px;
+                margin-left: 110px;
+            }
+
+            .education-section-bg {
+                position: absolute;
+                width: 420px;
+                height: 200px;
+                background-color: white;
+                margin-top: 180px;
+                margin-left: 90px;
+            }
+
+            h6.brand-name-small-right {
+                font-family: "Barlow Condensed";
+                font-size: 9px;
+                position: absolute;
+                color: #aaa;
+                margin-top: 170px;
+                margin-left: 50px;
+            }
+
+            h3.rotated-title-edu {
+                rotate: -90deg;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 250px;
+                margin-left: 20px;
+            }
+
+            p.section-number-02 {
+                font-family: "Barlow";
+                position: absolute;
+                font-size: 40px;
+                color: #aaa;
+                margin-top: 150px;
+                margin-left: 120px;
+            }
+
+            .section-divider-02 {
+                position: absolute;
+                width: 270px;
+                height: 12px;
+                background-color: #aaa;
+                margin-top: 180px;
+                margin-left: 240px;
+            }
+
+            p.edu-location-1 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                line-height: 15px;
+                margin-top: 220px;
+                margin-left: 120px;
+            }
+
+            p.edu-date-1 {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                color: #aaa;
+                margin-top: 252px;
+                margin-left: 120px;
+            }
+
+            p.edu-title-1 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                line-height: 15px;
+                margin-top: 220px;
+                margin-left: 240px;
+            }
+
+            p.edu-desc-1 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                width: 250px;
+                margin-top: 235px;
+                margin-left: 240px;
+            }
+
+            .separator-line-edu {
+                position: absolute;
+                width: 360px;
+                height: 1px;
+                background-color: #aaa;
+                margin-top: 290px;
+                margin-left: 120px;
+            }
+
+            p.edu-location-2 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                line-height: 15px;
+                margin-top: 300px;
+                margin-left: 120px;
+            }
+
+            p.edu-date-2 {
+                font-size: 9px;
+                font-family: "inter";
+                position: absolute;
+                color: #aaa;
+                margin-top: 332px;
+                margin-left: 120px;
+            }
+
+            p.edu-title-2 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                line-height: 15px;
+                margin-top: 300px;
+                margin-left: 240px;
+            }
+
+            p.edu-desc-2 {
+                font-size: 10px;
+                font-family: "inter";
+                position: absolute;
+                width: 250px;
+                margin-top: 315px;
+                margin-left: 240px;
+            }
+
+            .skills-section-bg {
+                position: absolute;
+                width: 420px;
+                height: 300px;
+                background-color: white;
+                margin-top: 440px;
+                margin-left: 90px;
+            }
+
+            h6.brand-name-small-skills {
+                font-family: "Barlow Condensed";
+                font-size: 9px;
+                position: absolute;
+                color: #aaa;
+                margin-top: 430px;
+                margin-left: 50px;
+            }
+
+            h3.rotated-title-skills {
+                rotate: -90deg;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 510px;
+                margin-left: 20px;
+            }
+
+            p.section-number-03 {
+                font-family: "Barlow";
+                position: absolute;
+                font-size: 40px;
+                color: #aaa;
+                margin-top: 410px;
+                margin-left: 120px;
+            }
+
+            .section-divider-03 {
+                position: absolute;
+                width: 270px;
+                height: 12px;
+                background-color: #aaa;
+                margin-top: 440px;
+                margin-left: 240px;
+            }
+
+            p.skills-category-1 {
+                font-size: 11px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 480px;
+                margin-left: 110px;
+            }
+
+            ul.skills-list-col-1 {
+                font-size: 8px;
+                list-style: none;
+                font-family: "inter";
+                position: absolute;
+                line-height: 13px;
+                margin-top: 470px;
+                margin-left: 200px;
+            }
+
+            li.skill-item-spaced {
+                margin-top: 10px;
+            }
+
+            li.skill-item-tight {
+                margin-top: -2px;
+            }
+
+            ul.skills-list-col-2 {
+                font-size: 8px;
+                list-style: none;
+                font-family: "inter";
+                position: absolute;
+                line-height: 13px;
+                margin-top: 470px;
+                margin-left: 340px;
+            }
+
+            .separator-line-skills {
+                position: absolute;
+                width: 370px;
+                height: 1px;
+                background-color: #aaa;
+                margin-top: 600px;
+                margin-left: 110px;
+            }
+
+            p.skills-category-2 {
+                font-size: 11px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 620px;
+                margin-left: 110px;
+            }
+
+            ul.skills-list-col-3 {
+                font-size: 8px;
+                list-style: none;
+                font-family: "inter";
+                position: absolute;
+                line-height: 13px;
+                margin-top: 610px;
+                margin-left: 200px;
+            }
+
+            ul.skills-list-col-4 {
+                font-size: 8px;
+                list-style: none;
+                font-family: "inter";
+                position: absolute;
+                line-height: 13px;
+                margin-top: 610px;
+                margin-left: 340px;
+            }
+
+            p.footer-page-num-right {
+                font-size: 8px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 780px;
+                margin-left: 90px;
+            }
+
+            h6.footer-location-right {
+                font-size: 8px;
+                font-family: "inter";
+                position: absolute;
+                margin-top: 780px;
+                margin-left: 420px;
+            }
